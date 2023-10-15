@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Industrie Narrow Medium";
+  src: url("/fonts/FSIndustrieNwMedium.otf");
+}
+
+@font-face {
+  font-family: "DevantPro Heavy";
+  src: url("/fonts/DevantPro-Heavy.ttf");
+}
+
+@font-face {
+  font-family: "Industrie Narrow Book";
+  src: url("/fonts/FSIndustrieNwBook.otf");
+}
+
+@font-face {
+  font-family: "Industrie Narrow Regular";
+  src: url("/fonts/FSIndustrieNwRegular.otf");
+}
+
+@font-face {
+  font-family: "Industrie Narrow Light";
+  src: url("/fonts/FSIndustrieNwLight.otf");
+}
+
+@font-face {
+  font-family: "Industrie Narrow Black";
+  src: url("/fonts/FSIndustrieNwBlack.otf");
+}
+
+@font-face {
+  font-family: "Industrie Narrow Bold";
+  src: url("/fonts/FSIndustrieNwBold.otf");
+}
+
+@font-face {
+  font-family: "Industrie Narrow Italic";
+  src: url("/fonts/FSIndustrieNwItalic.otf");
+}

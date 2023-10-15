@@ -1,0 +1,242 @@
+{
+  "PHI": {
+    "team_name": "Philadelphia 76ers",
+    "logo": "/images/statpit/nba_teams/PHI.png",
+    "wins": null,
+    "short_name": "Philadelphia",
+    "acronym": "PHI",
+    "team_name_chinese": "费城 76人"
+  },
+  "BKN": {
+    "team_name": "Brooklyn Nets",
+    "logo": "/images/statpit/nba_teams/BKN.png",
+    "wins": null,
+    "short_name": "Brooklyn",
+    "acronym": "BKN",
+    "team_name_chinese": "布鲁克林 篮网"
+  },
+  "BOS": {
+    "team_name": "Boston Celtics",
+    "logo": "/images/statpit/nba_teams/BOS.png",
+    "wins": null,
+    "short_name": "Boston",
+    "acronym": "BOS",
+    "team_name_chinese": "波士顿 凯尔特人"
+  },
+  "NYK": {
+    "team_name": "New York Knicks",
+    "logo": "/images/statpit/nba_teams/NYK.png",
+    "wins": null,
+    "short_name": "New York",
+    "acronym": "NYK",
+    "team_name_chinese": "纽约 尼克斯"
+  },
+  "MIL": {
+    "team_name": "Milwaukee Bucks",
+    "logo": "/images/statpit/nba_teams/MIL.png",
+    "wins": null,
+    "short_name": "Milwaukee",
+    "acronym": "MIL",
+    "team_name_chinese": "密尔沃基 雄鹿"
+  },
+  "IND": {
+    "team_name": "Indiana Pacers",
+    "logo": "/images/statpit/nba_teams/IND.png",
+    "wins": null,
+    "short_name": "Indiana",
+    "acronym": "IND",
+    "team_name_chinese": "印第安纳 步行者"
+  },
+  "CLE": {
+    "team_name": "Cleveland Cavaliers",
+    "logo": "/images/statpit/nba_teams/CLE.png",
+    "wins": null,
+    "short_name": "Cleveland",
+    "acronym": "CLE",
+    "team_name_chinese": "克利夫兰 骑士"
+  },
+  "CHI": {
+    "team_name": "Chicago Bulls",
+    "logo": "/images/statpit/nba_teams/CHI.png",
+    "wins": null,
+    "short_name": "Chicago",
+    "acronym": "CHI",
+    "team_name_chinese": "芝加哥 公牛"
+  },
+  "CHA": {
+    "team_name": "Charlotte Hornets",
+    "logo": "/images/statpit/nba_teams/CHO.png",
+    "wins": null,
+    "short_name": "Charlotte",
+    "acronym": "CHA",
+    "team_name_chinese": "夏洛特 黄蜂"
+  },
+  "LAC": {
+    "team_name": "Los Angeles Clippers",
+    "logo": "/images/statpit/nba_teams/LAC.png",
+    "wins": null,
+    "short_name": "LA Clippers",
+    "acronym": "LAC",
+    "team_name_chinese": "洛杉矶 快船"
+  },
+  "ORL": {
+    "team_name": "Orlando Magic",
+    "logo": "/images/statpit/nba_teams/ORL.png",
+    "wins": null,
+    "short_name": "Orlando",
+    "acronym": "ORL",
+    "team_name_chinese": "奥兰多 魔术"
+  },
+  "MIA": {
+    "team_name": "Miami Heat",
+    "logo": "/images/statpit/nba_teams/MIA.png",
+    "wins": null,
+    "short_name": "Miami",
+    "acronym": "MIA",
+    "team_name_chinese": "迈阿密 热火"
+  },
+  "MIN": {
+    "team_name": "Minnesota Timberwolves",
+    "logo": "/images/statpit/nba_teams/MIN.png",
+    "wins": null,
+    "short_name": "Minnesota",
+    "acronym": "MIN",
+    "team_name_chinese": "明尼苏达 森林狼"
+  },
+  "DET": {
+    "team_name": "Detroit Pistons",
+    "logo": "/images/statpit/nba_teams/DET.png",
+    "wins": null,
+    "short_name": "Detroit",
+    "acronym": "DET",
+    "team_name_chinese": "底特律 活塞"
+  },
+  "OKC": {
+    "team_name": "Oklahoma City Thunder",
+    "logo": "/images/statpit/nba_teams/OKC.png",
+    "wins": null,
+    "short_name": "Oklahoma City",
+    "acronym": "OKC",
+    "team_name_chinese": "俄克拉荷马城 雷霆"
+  },
+  "HOU": {
+    "team_name": "Houston Rockets",
+    "logo": "/images/statpit/nba_teams/HOU.png",
+    "wins": null,
+    "short_name": "Houston",
+    "acronym": "HOU",
+    "team_name_chinese": "休斯顿 火箭"
+  },
+  "SAS": {
+    "team_name": "San Antonio Spurs",
+    "logo": "/images/statpit/nba_teams/SAS.png",
+    "wins": null,
+    "short_name": "San Antonio",
+    "acronym": "SAS",
+    "team_name_chinese": "圣安东尼奥 马刺"
+  },
+  "PHX": {
+    "team_name": "Phoenix Suns",
+    "logo": "/images/statpit/nba_teams/PHO.png",
+    "wins": null,
+    "short_name": "Phoenix",
+    "acronym": "PHX",
+    "team_name_chinese": "菲尼克斯 太阳"
+  },
+  "MEM": {
+    "team_name": "Memphis Grizzlies",
+    "logo": "/images/statpit/nba_teams/MEM.png",
+    "wins": null,
+    "short_name": "Memphis",
+    "acronym": "MEM",
+    "team_name_chinese": "孟菲斯 灰熊"
+  },
+  "ATL": {
+    "team_name": "Atlanta Hawks",
+    "logo": "/images/statpit/nba_teams/ATL.png",
+    "wins": null,
+    "short_name": "Atlanta",
+    "acronym": "ATL",
+    "team_name_chinese": "亚特兰大 老鹰"
+  },
+  "LAL": {
+    "team_name": "Los Angeles Lakers",
+    "logo": "/images/statpit/nba_teams/LAL.png",
+    "wins": null,
+    "short_name": "LA Lakers",
+    "acronym": "LAL",
+    "team_name_chinese": " 洛杉矶 湖人"
+  },
+  "DAL": {
+    "team_name": "Dallas Mavericks",
+    "logo": "/images/statpit/nba_teams/DAL.png",
+    "wins": null,
+    "short_name": "Dallas",
+    "acronym": "DAL",
+    "team_name_chinese": "达拉斯 独行侠"
+  },
+  "WAS": {
+    "team_name": "Washington Wizards",
+    "logo": "/images/statpit/nba_teams/WAS.png",
+    "wins": null,
+    "short_name": "Washington",
+    "acronym": "WAS",
+    "team_name_chinese": "华盛顿 奇才"
+  },
+  "SAC": {
+    "team_name": "Sacramento Kings",
+    "logo": "/images/statpit/nba_teams/SAC.png",
+    "wins": null,
+    "short_name": "Sacramento",
+    "acronym": "SAC",
+    "team_name_chinese": "萨克拉门托 国王"
+  },
+  "TOR": {
+    "team_name": "Toronto Raptors",
+    "logo": "/images/statpit/nba_teams/TOR.png",
+    "wins": null,
+    "short_name": "Toronto",
+    "acronym": "TOR",
+    "team_name_chinese": "多伦多 猛龙"
+  },
+  "NOP": {
+    "team_name": "New Orleans Pelicans",
+    "logo": "/images/statpit/nba_teams/NO.png",
+    "wins": null,
+    "short_name": "New Orleans",
+    "acronym": "NO",
+    "team_name_chinese": "新奥尔良 鹈鹕"
+  },
+  "GSW": {
+    "team_name": "Golden State Warriors",
+    "logo": "/images/statpit/nba_teams/GSW.png",
+    "wins": null,
+    "short_name": "Golden State",
+    "acronym": "GSW",
+    "team_name_chinese": "金州 勇士"
+  },
+  "DEN": {
+    "team_name": "Denver Nuggets",
+    "logo": "/images/statpit/nba_teams/DEN.png",
+    "wins": null,
+    "short_name": "Denver",
+    "acronym": "DEN",
+    "team_name_chinese": "丹佛 掘金"
+  },
+  "POR": {
+    "team_name": "Portland Trail Blazers",
+    "logo": "/images/statpit/nba_teams/POR.png",
+    "wins": null,
+    "short_name": "Portland",
+    "acronym": "POR",
+    "team_name_chinese": "波特兰 开拓者"
+  },
+  "UTA": {
+    "team_name": "Utah Jazz",
+    "logo": "/images/statpit/nba_teams/UTA.png",
+    "wins": null,
+    "short_name": "Utah",
+    "acronym": "UTA",
+    "team_name_chinese": "犹他 爵士"
+  }
+}

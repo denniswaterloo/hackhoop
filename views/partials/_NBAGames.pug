@@ -1,0 +1,79 @@
+.modal
+  <select class="seasonType" name="seasonType" style="width: 100%">
+    <option value="all">All</option>
+    <option value="regularseason">Regular Season</option>
+    <option value="playoffs">Playoffs</option>
+  </select>
+.block
+  .block-header
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+          | Games: 
+          span.font-bold
+            | <%= data.collection.length %> 
+
+
+      .float-right
+        a#dddd.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+          | Filter
+        |  ·   
+        a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+          | View
+        |  ·   
+        a.font-medium(style='color: #0074cc' data-micromodal-trigger="modal-1")
+          | [Hide]
+
+    .block-header-row.padding-10
+      .float-left.font-medium
+
+
+
+        span.font-regular  
+
+          <% if (block.filter.isCurrentSeason) { %>
+            | 2022-23
+          <% } else { %>
+          <%= block.filter.season %>  
+
+
+          <% } %>  
+
+          | : 
+
+
+          <% if (block.filter.isAllGames) { %>
+            | All Games
+          <% } else { %>
+          <%= block.filter.seasonType %>
+          <% } %>  
+
+
+
+
+
+
+
+    <% _.each(block.filter.teams, function(team, index) { %>
+    .block-header-row.padding-10
+      .team-logo-small
+        <img onerror="this.onerror=null; this.src='/images/statpit/nbalogo.png'" alt='' src='/images/statpit/nba_teams/<%= team %>.png' />
+      .team-name-small
+        | <%= teamsStaticJSON[team].team_name %>
+
+
+      .team-metadata.font-medium
+        | (<%= metadata.teams.DET.total_wins %>-<%= metadata.teams.DET.total_losses %>)
+    <% })%>
+  .block-body
+    .section
+      .section-header.font-medium
+        | Games
+      .section-body
+        table.stat-table.border-bottom-none
+          tbody
+            tr.stat-tr.stat-tr-legend
+              td.td-legend.width-55.padding-8 Date
+              td.td-legend.width-80.padding-8 Away
+              td.td-legend.width-80.padding-8 Home
+              td.td-legend.width-35.padding-8 Score

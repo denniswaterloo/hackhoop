@@ -1,0 +1,49 @@
+td.stat-td.font-size-10pt.text-align-left.font-regular.padding-8
+  | <%= gameEt.split("T")[0] %>
+<td class="stat-td text-align-left font-size-10pt font-medium padding-8 <%= (awayTeamScore > homeTeamScore) ? 'win-bg' : 'loss-bg' %>">
+  .team-logo-small
+    <img onerror="this.onerror=null; this.src='/images/statpit/nbalogo.png'" alt='' src='/images/statpit/nba_teams/<%= awayTeamTricode %>.png' />
+  .team-name
+    | <%= awayTeamTricode %> 
+    span.font-light
+      | [
+    <span class="<%= (awayTeamScore > homeTeamScore) ? 'font-black' : 'font-regular' %>">
+      | <%= awayTeamWins %>
+    </span>
+    span.font-light -
+    <span class="<%= (awayTeamScore < homeTeamScore) ? 'font-black' : 'font-regular' %>">
+      | <%= awayTeamLosses %>
+    </span>
+    span.stat-font-light ]
+</td>
+<td class="stat-td text-align-left font-size-10pt font-medium padding-8 <%= (awayTeamScore < homeTeamScore) ? 'win-bg' : 'loss-bg' %>">
+  .team-logo-small
+    <img onerror="this.onerror=null; this.src='/images/statpit/nbalogo.png'" alt='' src='/images/statpit/nba_teams/<%= homeTeamTricode %>.png' />
+  .team-name-small
+    | <%= homeTeamTricode %> 
+    span.font-light 
+      | [
+    <span class="<%= (homeTeamScore > awayTeamScore) ? 'font-black' : 'font-regular' %>">
+      | <%= homeTeamWins %>
+    </span>
+    span.font-light -
+    <span class="<%= (homeTeamScore < awayTeamScore) ? 'font-black' : 'font-regular' %>">
+      | <%= homeTeamLosses %>
+    </span>
+    span.font-light ]
+</td>
+
+<td class="stat-td text-align-left font-size-10pt font-medium padding-8">
+
+  <span class="<%= (awayTeamScore > homeTeamScore) ? 'font-bold' : 'font-regular' %>"> 
+    | <%= awayTeamScore %>
+  </span>
+  span.font-light -
+  <span class="<%= (homeTeamScore > awayTeamScore) ? 'font-bold' : 'font-regular' %>">
+    | <%= homeTeamScore %>
+  </span>
+</td>
+
+
+
+

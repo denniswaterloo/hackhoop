@@ -1,0 +1,1349 @@
+body {
+  margin: 5px;
+}
+
+select {
+  box-sizing: border-box;
+}
+
+.stat-td-top-bar {
+  display: block;
+}
+
+.stat-td-header {
+  overflow: hidden;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.float-left {
+  float: left;
+}
+
+.team-name-large {
+  float: left;
+  margin-top: 6px;
+  font-family: "Industrie Narrow Medium";
+}
+
+.team-name-small {
+  float: left;
+  margin-top: 5px;
+  font-family: "Industrie Narrow Medium";
+}
+
+.font-size-11pt {
+  font-size: 11pt;
+}
+
+.line-height-links {
+  line-height: 1.5em;
+}
+
+.team-at-small {
+  float: left;
+  margin-top: 2px;
+}
+
+.width-80 {
+  width: 80px;
+}
+
+.width-35 {
+  width: 35px;
+}
+
+.padding-12-8 {
+  padding: 12px 8px;
+}
+
+.padding-6 {
+  padding: 6px;
+}
+
+.float-right {
+  float: right;
+}
+
+.team-logo-small img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+.team-logo-small {
+  float: left;
+  margin-right: 3px;
+}
+
+table {
+  border-spacing: 0px;
+  width: 100%;
+  overflow-x: auto;
+  border-top: 0.75px solid black;
+  background: white;
+}
+
+table:not(:last-child) {
+  margin-bottom: 1px;
+}
+
+/* tr:first-child td {
+    border-top: px solid black;
+  } */
+
+.border-bottom-none {
+  border-bottom: 0px;
+}
+
+th,
+td {
+  border-right: 0.75px solid black;
+  border-bottom: 0.75px solid black;
+}
+
+.section-breadcrumb {
+  border-top: 0.75px solid black;
+}
+
+.statbox-statsgroup {
+  border-top: 0.75px solid black;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none;
+}
+
+/* table tr:first-child td {
+    border-top: none;
+  }
+  
+  table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  table tr td:first-child {
+    border-left: none;
+  }
+  
+  table tr td:last-child {
+    border-right: none;
+  } */
+
+/* th,
+  td {
+    border: 1px solid #000;
+  } */
+
+body {
+  background: #f2f3f4;
+}
+
+.section-header {
+  padding: 10px;
+}
+
+.stat-table-min {
+  max-width: 400px;
+}
+
+.line-height-12 {
+  line-height: 1.2em;
+}
+
+.player-pic img {
+  float: left;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  background-color: rgba(231, 231, 231, var(--bg-opacity));
+  border-radius: 9999px;
+  box-shadow: inset 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+  -o-object-fit: cover;
+  margin-right: 5px;
+}
+
+.team-logo-large img {
+  float: left;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  margin-right: 5px;
+  display: block;
+}
+
+.sports-bookie-logo img {
+  height: 20px;
+}
+
+.game-cover-img img {
+  width: 100%;
+}
+
+.team-logo img {
+  float: left;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  display: block;
+}
+
+.player-name-with-pic {
+  margin-top: 5px;
+  float: left;
+}
+
+#stats-long table {
+  width: 200px;
+}
+
+th {
+  position: sticky !important;
+  top: 0;
+  left: 0;
+  z-index: 3 !important;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+.stat-td-header {
+  font-size: 10pt;
+}
+
+.stat-td-hover:hover {
+  background: #f2f5f7;
+  font-weight: bold;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hide {
+  display: none !important;
+}
+
+.stat-td-header {
+  background: #fff;
+  font-family: "Industrie Narrow Regular";
+}
+
+.font-family-Industrie-Narrow-Regular {
+  font-family: "Industrie Narrow Regular" !important;
+}
+
+.font-regular {
+  font-family: "Industrie Narrow Regular" !important;
+}
+
+.font-family-Industrie-Narrow-Medium {
+  font-family: "Industrie Narrow Medium";
+}
+
+.font-medium {
+  font-family: "Industrie Narrow Medium";
+}
+
+.font-family-Industrie-Narrow-Bold {
+  font-family: "Industrie Narrow Bold";
+}
+
+.font-bold {
+  font-family: "Industrie Narrow Bold";
+}
+
+.font-family-Industrie-Narrow-Black {
+  font-family: "Industrie Narrow Black" !important;
+}
+
+.font-black {
+  font-family: "Industrie Narrow Black" !important;
+}
+
+.font-family-Industrie-Narrow-Book {
+  font-family: "Industrie Narrow Book" !important;
+}
+
+.font-book {
+  font-family: "Industrie Narrow Book" !important;
+}
+
+.padding-12 {
+  padding: 12px !important;
+}
+
+.stat-tr-legend .stat-td-legend:first-child {
+  text-align: left;
+}
+
+.float-left {
+  float: left;
+}
+
+.td-legend {
+  font-family: "Industrie Narrow Medium", sans-serif !important;
+  font-size: 8pt;
+  padding: 10px 0px;
+  color: #778899;
+  letter-spacing: 0px;
+  background: #f2f5f7;
+  color: #000;
+}
+
+.td-hover-bold:hover {
+  font-weight: bold;
+}
+
+.bgcolor-d4edda {
+  background: #d4edda;
+  background: #dff1e3;
+}
+
+.bgcolor-f8d7da {
+  background: #f8d7da;
+  background: #fae1e3;
+}
+
+.bgcolor-f1f1f1 {
+  background: #f0f0f0;
+}
+
+.td-green-hover:hover {
+  background: #d4edda;
+}
+
+.td-hover-red:hover {
+  background: #f8d7da;
+}
+
+.stat-font-regular {
+  font-family: "Industrie Narrow Regular", sans-serif !important;
+}
+
+.stat-font-book {
+  font-family: "Industrie Narrow Book", sans-serif !important;
+}
+
+.stat-font-medium,
+.font-medium {
+  font-family: "Industrie Narrow Medium", sans-serif !important;
+}
+
+.stat-font-light {
+  font-family: "Industrie Narrow Light", sans-serif !important;
+}
+
+.stat-font-black {
+  font-family: "Industrie Narrow Black", sans-serif !important;
+}
+
+.stat-font-bold {
+  font-family: "Industrie Narrow Bold", sans-serif !important;
+}
+
+.stat-font-light {
+  font-family: "Industrie Narrow Light", sans-serif !important;
+}
+
+.font-light {
+  font-family: "Industrie Narrow Light", sans-serif !important;
+}
+
+.border-right-1px {
+  border-right: 0.8px solid black;
+}
+
+.bgcolor-f0f0f0 {
+  background: #f0f0f0;
+}
+
+.font-size-10pt {
+  font-size: 10pt;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.font-weight-medium {
+  font-family: "Industrie Narrow Medium", sans-serif !important;
+}
+
+.font-weight-regular {
+  font-family: "Industrie Narrow Regular", sans-serif !important;
+}
+
+.font-weight-book {
+  font-family: "Industrie Narrow Book", sans-serif !important;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center !important;
+}
+
+.color-888 {
+  color: #888;
+}
+
+.color-004eaf {
+  color: #004eaf;
+}
+
+.color-4a7d95 {
+  color: #4a7d95;
+}
+
+span.a {
+  font-size: 7.5pt;
+}
+
+.font-family-industrie-narrow-regular {
+  font-family: "Industrie Narrow Regular", sans-serif !important;
+}
+
+.font-family-industrie-narrow-medium {
+  font-family: "Industrie Narrow Medium", sans-serif !important;
+}
+
+.font-family-industrie-narrow-bold {
+  font-family: "Industrie Narrow Bold", sans-serif !important;
+}
+
+.font-family-industrie-narrow-light {
+  font-family: "Industrie Narrow Light", sans-serif !important;
+}
+
+.stat-td-width-a {
+  width: 25px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.stat-td-width-c {
+  width: 40px;
+}
+
+.stat-td-width-bc {
+  width: 35px;
+}
+
+.stat-td-width-d {
+  width: 50px;
+}
+
+.stat-td-width-cd {
+  width: 46px;
+}
+
+.stat-td-width-b {
+  width: 30px;
+}
+
+.stat-td-width-e {
+  width: 60px;
+}
+
+.width-45 {
+  width: 45px;
+}
+
+.width-55 {
+  width: 55px;
+}
+
+.width-75 {
+  width: 75px;
+}
+
+.width-77 {
+  width: 77px;
+}
+
+.stat-td-width-f {
+  width: 70px;
+}
+
+.stat-td-width-g {
+  width: 80px;
+}
+
+.stat-td-width-h {
+  width: 90px;
+}
+
+.stat-td-width-i {
+  min-width: 100px;
+}
+
+thead {
+  width: 100%;
+}
+
+th {
+  width: auto;
+}
+
+.stat-td-width-j {
+  width: 110px;
+}
+
+.stat-td-width-k {
+  width: 120px;
+}
+
+.stat-td-width-l {
+  width: 130px;
+}
+
+.stat-td-width-m {
+  width: 140px;
+}
+
+.stat-td-width-n {
+  width: 150px;
+}
+
+.stat-td-width-o {
+  width: 160px;
+}
+
+.stat-td-width-p {
+  width: 170px;
+}
+
+.stat-td-width-q {
+  width: 180px;
+}
+
+.stat-td-width-r {
+  width: 190px;
+}
+
+.stat-td-width-s {
+  width: 200px;
+}
+
+.stat-td-width-t {
+  width: 210px;
+}
+
+.stat-td-width-u {
+  width: 220px;
+}
+
+.stat-td-width-v {
+  width: 230px;
+}
+
+.stat-td-width-w {
+  width: 240px;
+}
+
+.stat-td-width-x {
+  width: 250px;
+}
+
+.stat-td-width-y {
+  width: 260px;
+}
+
+.stat-td-width-z {
+  width: 270px;
+}
+
+.stat-td-width-aa {
+  width: 330px;
+}
+
+.team-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.stat-td-legend:hover {
+  cursor: help;
+  color: #112233;
+}
+
+#opponents-statistics-total {
+  padding: 40px;
+}
+
+#team-statistics-total {
+  padding: 40px;
+}
+
+#team-statistics-per-game {
+  padding: 40px;
+}
+
+.color-0268d6 {
+  color: #0268d6 !important;
+}
+
+.color-0645AD {
+  color: #0645ad;
+}
+
+.color-555555 {
+  color: #555555;
+}
+
+.float-left {
+  float: left;
+}
+
+.chinese-font {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.stat-td-width-tiny {
+  width: 12px;
+}
+
+.stat-td-width-min {
+  width: 18px;
+}
+
+.td-min {
+  width: 7px;
+}
+.padding-5 {
+  padding: 6px;
+}
+
+.padding-5-10 {
+  padding: 5px 10px;
+}
+
+.padding-7-10 {
+  padding: 7px 10px;
+}
+
+.padding-8-10 {
+  padding: 8px 10px;
+}
+
+.background-color-ebe9e7 {
+  background-color: #ebe9e7;
+}
+
+.bgcolor-eeeeee {
+  background: #eeeeee;
+}
+
+.color-0074cc {
+  color: #0074cc;
+}
+
+.team-vs-div {
+  float: left;
+}
+
+.team-vs-div-image {
+  float: left;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16pt;
+}
+
+.team-name-with-sup {
+  float: left;
+}
+
+.text-with-sub {
+  margin-top: 3px;
+}
+
+.team-name-with-sup {
+}
+
+.color-39739d {
+  color: #39739d;
+}
+
+.color-4286b7 {
+  color: #4286b7;
+}
+
+.color-6bbbf7 {
+  color: #6bbbf7;
+}
+
+.color-778899 {
+  color: #778899;
+}
+
+.color- .text-align-center {
+  text-align: center;
+}
+
+.color-999999 {
+  color: #666666;
+}
+
+.stat-hover-tr:hover {
+  background: #f2f5f7;
+}
+
+.stat-nba-game-away-team-top-right {
+  float: right;
+}
+
+.stat-nba-game-away-team-top-text {
+  float: left;
+}
+
+select {
+  padding-top: 5px !important;
+}
+
+.stat-td-header-span-primary {
+  margin-top: 3px;
+}
+
+.stat-td-header-span-secondary {
+  margin-top: 3px;
+}
+
+.table-filter-button {
+  background: #ebe9e7;
+  font-size: 9pt;
+  padding: 3px 6px;
+  float: left;
+}
+
+.table-filter-button:not(:last-child) {
+  margin-right: 15px;
+}
+
+.td-image-left {
+  float: left;
+}
+
+.td-image-left img {
+  width: 24px;
+  height: 24px;
+}
+
+.team-logo img {
+  display: block;
+  margin-right: 3px;
+}
+
+.td-team-name {
+  margin-left: 8px;
+  margin-top: 6px;
+  float: left;
+}
+
+.player-name {
+  margin-left: 5px;
+  margin-top: 6px;
+  float: left;
+  word-spacing: 0px;
+}
+
+.padding-10 {
+  padding: 10px !important;
+}
+
+.td-img-icon-left img {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+.td-img-icon-left {
+  float: left;
+  margin-right: 10px;
+}
+
+tfoot td {
+  /*background: #f2f5f7;*/
+  color: #778899;
+  color: #000;
+  font-size: 8.5pt;
+  letter-spacing: 1px;
+  padding: 12px;
+  background: #fff;
+}
+
+div.table-wrapper {
+  clear: both;
+}
+
+.padding-10-3 {
+  padding: 10px 3px !important;
+}
+
+.showHideToggle {
+  cursor: pointer;
+}
+
+.showHideToggle:hover {
+  text-decoration: underline;
+}
+
+.padding-10-5 {
+  padding: 10px 5px !important;
+}
+
+.padding-10-8 {
+  padding: 10px 8px !important;
+}
+
+.link-blue {
+  color: #0268d6 !important;
+}
+
+.td-section-divider {
+  height: 3px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.table-header-team-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.table-header-team-icon {
+  float: left;
+  margin-right: 15px;
+}
+
+.font-size-11 {
+  font-size: 11pt;
+}
+
+.font-size-8 {
+  font-size: 8pt;
+}
+
+.font-size-9 {
+  font-size: 9pt;
+}
+
+.float-right {
+  float: right;
+}
+
+select {
+  border: none;
+}
+
+.padding-8-12 {
+  padding: 8px 12px;
+}
+
+.padding-10-12 {
+  padding: 10px 12px;
+}
+
+.table-split-tr {
+  background: #fff;
+  padding: 8px 12px;
+}
+
+.td-team-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.split-header-text {
+  font-size: 9.5pt;
+  font-family: "Industrie Narrow Medium", sans-serif !important;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.color-2980B9 {
+  color: #2980b9;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content div:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+.page {
+  max-width: 100vw;
+}
+
+.statblock {
+  margin-bottom: 30px;
+  max-width: 100vw;
+  overflow-x: auto;
+  overflow-y: auto;
+  position: relative;
+  font-family: "Industrie Narrow Regular", sans-serif !important;
+}
+
+.block-header {
+  border-bottom: 0.75px solid black;
+}
+
+.block {
+  border: 0.75px solid black;
+}
+
+.statblock-mobile {
+  font-size: 10pt;
+}
+
+.statbox-header {
+  padding: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.section-breadcrumb {
+  padding: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.section-heading {
+  padding: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.block:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.block-heading {
+  padding: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.block-breadcrumb {
+  padding: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.section-header {
+  overflow: hidden;
+  background: #fff;
+}
+
+/* .statbox-header:not(:last-child) {
+    border-bottom: 0.75px solid black;
+  } */
+
+.block-body {
+  border-top: 0.75px solid black;
+}
+
+.statblock-header-row {
+  overflow: hidden;
+}
+
+.statblock-header-row:not(:last-child) {
+  border-bottom: 0.75px solid black;
+}
+
+.block-header-row {
+  overflow: hidden;
+}
+
+.block-header-row:not(:last-child) {
+  border-bottom: 0.75px solid black;
+}
+
+.block-header-row {
+  overflow: hidden;
+}
+
+.statblock-top-heading {
+  font-family: "Industrie Narrow Medium", sans-serif !important;
+}
+
+.statblock-small {
+  font-size: 10pt;
+}
+
+.statblock-header {
+  background: #fff;
+  padding: 20px 12px;
+  margin-bottom: 30px;
+}
+
+.padding-10-12 {
+  padding: 10px 12px;
+}
+
+#franchises-table-wrapper {
+  padding: 30px;
+}
+
+.gamelogs-inner-team-logo {
+  width: 24px;
+  height: 24px;
+}
+
+.stat-td-team-logo {
+  float: left;
+  margin-right: 8px;
+}
+
+.stat-td-team-text {
+  float: left;
+  margin-top: 6px;
+}
+
+.team-logo {
+  float: left;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.team-name {
+  float: left;
+  margin-top: 6px;
+}
+
+.win-bg {
+  background: #d4edda;
+}
+
+.loss-bg {
+  background: #f8d7da;
+}
+
+.statblock-head {
+  margin-bottom: 15px;
+  border: 0.75px solid black;
+  background: #fff;
+}
+
+.block-header {
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+.page {
+  min-width: 365px;
+  width: 365px;
+  /* max-width: 425px; */
+  font-size: 10pt;
+}
+
+.page-header {
+  border: 0.75px solid black;
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+.statblock-head-first-row {
+  border-bottom: 0.75px solid black;
+}
+
+.small {
+  font-size: 10pt;
+}
+
+/*# sourceMappingURL=stat_table.css.map */
+
+.tr-legend td {
+  font-size: 7.5pt;
+  font-family: "Industrie Narrow Medium", sans-serif !important;
+  background: #f1f4f6;
+}
+
+.statblock-mobile {
+  min-width: 375px;
+
+  max-width: 425px;
+}
+
+.statbox-subheading-row {
+  padding: 10px;
+  overflow: hidden;
+  border-top: 0.5px solid black;
+}
+
+.statblock-body:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.statblock-body-header {
+  padding: 12px 10px;
+  overflow: hidden;
+  background: white;
+  border-top: 0.5px solid black;
+  border-right: 0.5px solid black;
+  border-left: 0.5px solid black;
+}
+
+.statblock-body-header {
+  margin-bottom: 2px;
+  border-bottom: 0.5px solid black;
+}
+
+.statblock-body-header-left {
+  float: left;
+}
+
+.statblock-body-header-right {
+  float: right;
+  color: #0074cc;
+  color: #126cd3;
+  font-family: "Industrie Narrow Regular", sans-serif !important;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.team-record {
+  float: left;
+  margin-left: 3px;
+  margin-top: 6px;
+}
+
+.margin-left-10 {
+  margin-left: 5px;
+}
+
+.team-cover-img {
+  background: #0e2240;
+  padding: 50px;
+}
+
+.section-heading {
+  padding: 10px;
+}
+
+.divider {
+  padding: 10px;
+  background: #fff;
+}
+
+.nba-cover {
+  background: #1059a7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.nba-cover-img img {
+  width: 100%;
+}
+
+.page-cover {
+  background: #1059a7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.page-cover-img img {
+  width: 100%;
+}
+
+.nba-cover-text {
+  color: #fff;
+  float: left;
+  margin-left: 25px;
+  font-size: 26pt;
+  margin-top: 20px;
+  opacity: 0.8;
+  line-height: 1.15em;
+}
+
+.page-cover-text {
+  color: #fff;
+  float: left;
+  margin-left: 25px;
+  font-size: 26pt;
+  margin-top: 20px;
+  opacity: 0.8;
+  line-height: 1.15em;
+}
+
+.nba-cover-text .span-top {
+  opacity: 0.3;
+  font-size: 20pt;
+}
+
+.nba-cover-text .span-bottom {
+  opacity: 1;
+}
+
+.page-cover-text .span-top {
+  opacity: 0.3;
+  font-size: 18pt;
+}
+
+.page-cover-text .span-bottom {
+  opacity: 1;
+}
+
+.team-cover-img img {
+  width: 30%;
+}
+
+.nba-cover-img {
+  float: left;
+  width: 30%;
+}
+
+.page-cover-img {
+  float: left;
+  width: 30%;
+}
+
+.statblock-body-head-separate {
+  margin-bottom: 7px;
+  border-bottom: 0.5px solid black;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.statblock-body {
+  border: 0.5px solid black;
+}
+
+.statblock-body-head-separate:not(:first-child) {
+  border-top: 0.5px solid black;
+}
+
+.statbox-statsgroup:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.statblock-body-head-attached:not(:first-child) {
+  margin-bottom: 2px;
+  border-top: 0.5px solid black;
+}
+
+.select2 {
+  font-family: "Industrie Narrow Regular", sans-serif !important;
+}
+
+.select2-results__option {
+  font-family: "Industrie Narrow Regular", sans-serif !important;
+}
+
+button a {
+  color: #000;
+  text-decoration: none;
+}
+
+/**************************\
+  Basic Modal Styles
+\**************************/
+
+.modal {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 500px;
+  max-height: 100vh;
+  border-radius: 4px;
+  width: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  /* This part is important for centering the content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 2;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.team-metadata {
+  float: left;
+  margin-top: 5px;
+  margin-left: 15px;
+}
