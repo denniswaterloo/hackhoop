@@ -17,18 +17,10 @@
       .float-right
         a#dddd.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
           | Filter
-        |  ·   
-        a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
-          | View
-        |  ·   
-        a.font-medium(style='color: #0074cc' data-micromodal-trigger="modal-1")
-          | [Hide]
+
 
     .block-header-row.padding-10
       .float-left.font-medium
-
-
-
         span.font-regular  
 
           <% if (block.filter.isCurrentSeason) { %>
@@ -66,9 +58,165 @@
         | (<%= metadata.teams.DET.total_wins %>-<%= metadata.teams.DET.total_losses %>)
     <% })%>
   .block-body
+
     .section
       .section-header.font-medium
-        | Games
+        .float-left.font-medium
+          | Metadata
+        .float-right(style='color: #333')
+          | [ 
+          a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            | List view
+          | &nbsp;]
+          |  ·   
+          | [ 
+          a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            | Hide
+          | &nbsp;]
+      .section-body.font-regular
+
+        .subdivision
+          .subdivision-header.font-regular.font-bold
+            | Matchups
+          .subdivision-body
+
+            table.border-bottom-none
+              thead
+                tr.stat-tr.stat-tr-legend
+                  td.td-legend.padding-8 Team
+
+                  td.td-legend.padding-8 Opp
+
+                  td.td-legend.padding-8 G
+
+                  td.td-legend.padding-8 Rcrd
+
+                  td.td-legend.padding-8 Home
+
+                  td.td-legend.padding-8 Away   
+
+                  td.td-legend.padding-8 TmPPG          
+
+                  td.td-legend.padding-8 OpPPG                                                                         
+
+
+              tbody
+
+
+                tr.stat-tr
+                  td.stat-td.padding-8
+
+                    .team-logo-small
+                      <img onerror="this.onerror=null; this.src='/images/statpit/nbalogo.png'" alt='' src='/images/statpit/nba_teams/BOS.png' />
+                    .team-name-small
+                      | BOS
+
+                  td.stat-td.padding-8
+
+                    .team-logo-small
+                      <img onerror="this.onerror=null; this.src='/images/statpit/nbalogo.png'" alt='' src='/images/statpit/nba_teams/MIA.png' />
+                    .team-name-small
+                      | MIA
+
+                  td.stat-td.padding-8
+                    | 7
+
+                  td.stat-td.padding-8
+                    | 2
+                  td.stat-td.padding-8
+                    | 5
+                  td.stat-td.padding-8
+                    | 4
+                  td.stat-td.padding-8    
+                    | 102.9
+                  td.stat-td.padding-8    
+                    | 108.3
+
+
+        .subdivision
+
+          .subdivision-header.font-regular.font-bold
+            | Teams
+          .subdivision-body
+
+            table.border-bottom-none
+              thead
+                tr.stat-tr.stat-tr-legend
+                  td.td-legend.padding-8 Team
+
+                  td.td-legend.padding-8 G
+
+                  td.td-legend.padding-8 OvrRcd
+
+                  td.td-legend.padding-8 HomeRcd   
+
+                  td.td-legend.padding-8 AwayRcd   
+
+                  td.td-legend.padding-8 TmPPG          
+
+                  td.td-legend.padding-8 OpPPG                                                                         
+
+
+              tbody
+
+                <% _.each(metadata.teams, function(team, value, key) { %>
+                tr.stat-tr
+                  td.stat-td.padding-8
+
+                    .team-logo-small
+                      <img onerror="this.onerror=null; this.src='/images/statpit/nbalogo.png'" alt='' src='/images/statpit/nba_teams/<%= value %>.png' />
+                    .team-name-small
+                      | <%= value %>
+                  td.stat-td.padding-8
+                    | <%= key[value].games_total %>
+
+                  td.stat-td.padding-8
+                    | <%= key[value].total_wins %>-<%= key[value].total_losses %>
+                  td.stat-td.padding-8
+                    | <%= key[value].home_wins %>-<%= key[value].home_losses %>
+                  td.stat-td.padding-8
+                    | <%= key[value].away_wins %>-<%= key[value].away_losses %>
+                  td.stat-td.padding-8    
+                    | 102.9
+                  td.stat-td.padding-8    
+                    | 108.3
+                <% }) %>
+
+        .subdivision
+
+          .subdivision-header.font-medium
+            | Venue
+          .subdivision-body
+
+            table.border-bottom-none
+              tbody
+                tr.stat-tr
+                  td.stat-td.padding-8
+                    |  Away Team Wins
+                  td.stat-td.padding-8
+                    |  34 / 84
+                  td.stat-td.padding-8
+                    |  20.6%               
+                tr.stat-tr
+                  td.stat-td.padding-8
+                    |  Home Team Wins
+                  td.stat-td.padding-8
+                    |  50 / 84
+                  td.stat-td.padding-8
+                    |  69.4%                            
+
+
+
+    .section
+      .section-header.font-medium
+        .float-left
+          | Games
+        .float-right
+          a.font-medium(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            | [List View]
+          |  ·   
+          a.font-medium(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            | [Hide]
       .section-body
         table.stat-table.border-bottom-none
           tbody

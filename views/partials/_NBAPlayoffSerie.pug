@@ -1,0 +1,36 @@
+.section-header.font-medium
+  | <%= seasonYear %>
+.section-body
+  table.stat-table.border-bottom-none
+    thead
+      <tr class="tr tr-legend">
+      <td class="td-legend width-min padding-8">Rd</td>
+      <td class="td-legend padding-8">Series</td>
+      <td class="td-legend padding-8">AwayDis.Tm</td>
+      <td class="td-legend padding-8">HomeAdv.Tm</td>
+      <td class="td-legend padding-8">WL</td>
+      </tr>
+    tbody  
+      <% _.each(playoffseries, function(playoffserie, index) { %>
+      tr
+
+        <td class="stat-td font-size-10pt text-align-left font-regular padding-8"><%= playoffserie.playoffRound %></td>
+        <td class="stat-td font-size-10pt text-align-left font-regular padding-8"><%= playoffserie.playoffRoundName.replace(/Conference/, "Conf.") %></td>
+        <td class="stat-td font-size-10pt text-align-left font-regular padding-8">
+        <div class="team-logo-small">
+          <img src="<%=  teamsStaticJSON[playoffserie.awayDisadvantageTeamAcronym]['historical'][playoffserie.seasonYear]['logo'] %>" alt="" />
+        </div>
+        <div class="team-name-small">
+          <%= playoffserie.awayDisadvantageTeamAcronym %>
+        </div>
+        </td>
+        <td class="stat-td font-size-10pt text-align-left font-regular padding-8">
+        <div class="team-logo-small">
+          <img src="/images/statpit/nba_teams/<%= playoffserie.homeAdvantageTeamAcronym %>.png" alt="" />
+        </div>
+        <div class="team-name-small">
+          <%= playoffserie.homeAdvantageTeamAcronym %>
+        </div>
+        </td>
+        <td class="stat-td font-size-10pt text-align-left font-regular padding-8"><%= playoffserie.awayDisadvantageTeamWins %>-<%= playoffserie.homeAdvantageTeamWins %></td>
+      <% }) %>

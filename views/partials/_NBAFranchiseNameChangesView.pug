@@ -9,27 +9,24 @@
     table.stat-table.border-bottom-none
       thead
         tr.stat-tr.stat-tr-legend
-          td.td-legend.width-50.padding-8 Season
-          td.td-legend.padding-8 W
-          td.td-legend.padding-8 L
-          td.td-legend.padding-8 WL%
-          td.td-legend.padding-8 Seeding
-          td.td-legend.stat-width-w.padding-8 Playoffs
-      thead
-        <% _.each(seasons, function(season, index) { %>
+          td.td-legend.width-50.padding-8 Name
+          td.td-legend.padding-8 Leagues
+          td.td-legend.padding-8 From-To
+
+          td.td-legend.padding-8 POs*
+          td.td-legend.stat-width-w.padding-8 CHIP^
+      tbody
+        <% _.each(historicalTeamNames, function(historicalTeam, index) { %>
         tr.stat-tr
           td.stat-td.font-size-10pt.text-align-left.font-regular.padding-8
-            <%= index %>
+            <%= historicalTeam.teamName %>
           td.stat-td.font-size-10pt.text-align-left.font-regular.padding-8
-            <%= season.games_won %>
+            <%= historicalTeam.leagues %>
           td.stat-td.font-size-10pt.text-align-left.font-regular.padding-8
-            <%= season.games_lost %>
+            <%= historicalTeam.seasonFromYearBegin %>-<%= historicalTeam.seasonToYearEnd %>
           td.stat-td.font-size-10pt.text-align-left.font-regular.padding-8
-            | .500
+            <%= historicalTeam.playoffs %>
           td.stat-td.font-size-10pt.text-align-left.font-regular.padding-8
-            | -
-            //- | #7 EAST     
-          td.stat-td.font-size-10pt.text-align-left.font-regular.padding-8
-            | -
-            //- | Lost E. Conf. 1st Rd.     
+            <%= historicalTeam.championships %>
+
         <% }) %> 

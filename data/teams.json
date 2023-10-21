@@ -29,7 +29,12 @@
     "wins": null,
     "short_name": "New York",
     "acronym": "NYK",
-    "team_name_chinese": "纽约 尼克斯"
+    "team_name_chinese": "纽约 尼克斯",
+    "historical": {
+      "1946-47": {
+        "logo": "/images/statpit/nba_teams/NYK.0.png"
+      }
+    }
   },
   "MIL": {
     "team_name": "Milwaukee Bucks",
@@ -181,7 +186,12 @@
     "wins": null,
     "short_name": "Washington",
     "acronym": "WAS",
-    "team_name_chinese": "华盛顿 奇才"
+    "team_name_chinese": "华盛顿 奇才",
+    "historical": {
+      "1946-47": {
+        "logo": "/images/statpit/nba_teams/NYK.0.png"
+      }
+    }
   },
   "SAC": {
     "team_name": "Sacramento Kings",

@@ -17,11 +17,11 @@ head
     var page = !{JSON.stringify(page)};
     var teamsStaticJSON = !{JSON.stringify(teamsJSON)};
 
-  script(id='NBAGamesTableMinifiedView' type='template')
-    include ../partials/_NBAGames
-  script#NBAGameTableRowMinifiedView(type='template')
-    include ../partials/_NBAGame
-  script(type='text/javascript' src='/javascripts/pages/games.js')
+  script(id='NBAPlayoffSeriesView' type='template')
+    include ../partials/_NBAPlayoffSeries
+  script(id='NBAPlayoffSerieView' type='template')
+    include ../partials/_NBAPlayoffSerie
+  script(type='text/javascript' src='/javascripts/pages/playoffseries.js')
 #overlay
 .page
   .page-header
@@ -29,13 +29,13 @@ head
       .page-cover-img
         img(src='/images/statpit/nbalogo.webp' alt='')
       .page-cover-text.font-black
-        span.span-top ./
+        span.span-top Playoff
         br
-        span.span-bottom Games
+        span.span-bottom Series
     .block-header-row.padding-10.font-medium
       .float-left
-        span.font-medium  Games  
-        span.font-regular &nbsp;Page
+        span.font-medium  Team 
+        span.font-regular &nbsp;Franchises
       .float-right
-        span.font-regular.underline(style='color: #0074cc') Settings
+        span.font-regular.underline(style='color: #0074cc') Page Settings
   .page-body

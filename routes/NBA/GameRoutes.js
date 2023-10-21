@@ -87,6 +87,26 @@ module.exports = function (app, db, schemas) {
         query.$and = [];
       }
 
+      teams = req.query.teams.split("~");
+
+      if (req.query.isMatchup) {
+        query.$and.push({ "awayTeam.teamTricode": { $in: teams } });
+        query.$and.push({ "homeTeam.teamTricode": { $in: teams } });
+      } else {
+        query.$and.push({ $or: [] });
+
+        for (i = 0; i < teams.length; i++) {
+          query.$and[query.$and.length - 1].$or.push({ "awayTeam.teamTricode": teams[i] });
+          query.$and[query.$and.length - 1].$or.push({ "homeTeam.teamTricode": teams[i] });
+        }
+      }
+    }
+
+    if (req.query.teams) {
+      if (!query.$and) {
+        query.$and = [];
+      }
+
       query.$and.push({ $or: [] });
 
       teams = req.query.teams.split("~");
@@ -106,7 +126,7 @@ module.exports = function (app, db, schemas) {
     }
 
     NBAGame.find(query)
-      .sort({ dateStamp: -1 })
+      .sort({ dateTimeStamp: -1 })
       .then(function (nbagames) {
         res.json(nbagames);
       });

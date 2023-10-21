@@ -4,7 +4,7 @@ let FranchiseSchema = new mongoose.Schema({
   leagues: [],
   currentTeamFullName: String,
   currentTeamAcronym: String,
-  historicalTeamAcronyms: ["DEN", "DNA", "DNR"],
+  historicalTeamAcronyms: [],
   historicalTeamNames: [],
 });
 

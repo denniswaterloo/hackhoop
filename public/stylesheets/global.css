@@ -81,7 +81,7 @@ table {
   border-spacing: 0px;
   width: 100%;
   overflow-x: auto;
-  border-top: 0.75px solid black;
+  border-top: 1px solid #eee;
   background: white;
 }
 
@@ -99,16 +99,24 @@ table:not(:last-child) {
 
 th,
 td {
-  border-right: 0.75px solid black;
-  border-bottom: 0.75px solid black;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.font-smooth {
+  font-smooth: 2em;
+}
+
+.font-bold {
+  font-weight: 900;
 }
 
 .section-breadcrumb {
-  border-top: 0.75px solid black;
+  border-top: 1px solid #eee;
 }
 
 .statbox-statsgroup {
-  border-top: 0.75px solid black;
+  border-top: 1px solid #eee;
 }
 
 th:last-child,
@@ -143,6 +151,23 @@ body {
 
 .section-header {
   padding: 10px;
+}
+
+.subdivision {
+  border-top: 1px solid #eee;
+}
+
+.subdivision-header {
+  padding: 10px;
+  background: #fff;
+}
+
+.subdivision {
+  margin-top: 5px;
+}
+
+.subdivision-body {
+  overflow: hidden;
 }
 
 .stat-table-min {
@@ -940,11 +965,11 @@ select {
 }
 
 .block-header {
-  border-bottom: 0.75px solid black;
+  border-bottom: 1px solid #eee;
 }
 
 .block {
-  border: 0.75px solid black;
+  border: 1px solid #eee;
 }
 
 .statblock-mobile {
@@ -991,11 +1016,11 @@ select {
 }
 
 /* .statbox-header:not(:last-child) {
-    border-bottom: 0.75px solid black;
+    border-bottom: 1px solid #eee;
   } */
 
 .block-body {
-  border-top: 0.75px solid black;
+  border-top: 1px solid #eee;
 }
 
 .statblock-header-row {
@@ -1003,7 +1028,7 @@ select {
 }
 
 .statblock-header-row:not(:last-child) {
-  border-bottom: 0.75px solid black;
+  border-bottom: 1px solid #eee;
 }
 
 .block-header-row {
@@ -1011,7 +1036,7 @@ select {
 }
 
 .block-header-row:not(:last-child) {
-  border-bottom: 0.75px solid black;
+  border-bottom: 1px solid #eee;
 }
 
 .block-header-row {
@@ -1078,7 +1103,7 @@ td {
 
 .statblock-head {
   margin-bottom: 15px;
-  border: 0.75px solid black;
+  border: 1px solid #eee;
   background: #fff;
 }
 
@@ -1095,13 +1120,13 @@ td {
 }
 
 .page-header {
-  border: 0.75px solid black;
+  border: 1px solid #eee;
   background: #fff;
   margin-bottom: 15px;
 }
 
 .statblock-head-first-row {
-  border-bottom: 0.75px solid black;
+  border-bottom: 1px solid #eee;
 }
 
 .small {
@@ -1125,7 +1150,7 @@ td {
 .statbox-subheading-row {
   padding: 10px;
   overflow: hidden;
-  border-top: 0.5px solid black;
+  border-top: 1px solid #eee;
 }
 
 .statblock-body:not(:last-child) {
@@ -1136,14 +1161,14 @@ td {
   padding: 12px 10px;
   overflow: hidden;
   background: white;
-  border-top: 0.5px solid black;
-  border-right: 0.5px solid black;
-  border-left: 0.5px solid black;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
 }
 
 .statblock-body-header {
   margin-bottom: 2px;
-  border-bottom: 0.5px solid black;
+  border-bottom: 1px solid #eee;
 }
 
 .statblock-body-header-left {
@@ -1225,11 +1250,15 @@ td {
   line-height: 1.15em;
 }
 
+.modal {
+  display: none !important;
+}
+
 .page-cover-text {
   color: #fff;
   float: left;
   margin-left: 25px;
-  font-size: 26pt;
+  font-size: 24pt;
   margin-top: 20px;
   opacity: 0.8;
   line-height: 1.15em;
@@ -1269,17 +1298,17 @@ td {
 
 .statblock-body-head-separate {
   margin-bottom: 7px;
-  border-bottom: 0.5px solid black;
+  border-bottom: 1px solid #eee;
   overflow: hidden;
   margin-top: 10px;
 }
 
 .statblock-body {
-  border: 0.5px solid black;
+  border: 1px solid #eee;
 }
 
 .statblock-body-head-separate:not(:first-child) {
-  border-top: 0.5px solid black;
+  border-top: 1px solid #eee;
 }
 
 .statbox-statsgroup:not(:last-child) {
@@ -1288,7 +1317,7 @@ td {
 
 .statblock-body-head-attached:not(:first-child) {
   margin-bottom: 2px;
-  border-top: 0.5px solid black;
+  border-top: 1px solid #eee;
 }
 
 .select2 {
@@ -1346,4 +1375,8 @@ button a {
   float: left;
   margin-top: 5px;
   margin-left: 15px;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 10px;
 }

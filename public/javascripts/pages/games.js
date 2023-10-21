@@ -6,6 +6,11 @@ global.backbone = {
   views: {},
 };
 
+Object.filter = (obj, predicate) =>
+  Object.keys(obj)
+    .filter((key) => predicate(obj[key]))
+    .reduce((res, key) => ((res[key] = obj[key]), res), {});
+
 global.pages = {};
 
 global.pages.NBAGames = page;
@@ -66,39 +71,60 @@ global.backbone.views.NBAGamesTableMinifiedView = Backbone.View.extend({
   },
   render: function (data) {
     metadata = {
-      teams: {
-        DET: {
-          total_wins: 0,
-          total_losses: 0,
-          away_wins: 0,
-          home_wins: 0,
-        },
-      },
+      teams: {},
     };
 
-    for (i = 0; i < data.collection.models.length; i++) {
-      if (data.collection.models[i].get("awayTeam")["teamTricode"] === "DET") {
-        if (data.collection.models[i].get("winningTeamAcronym") === "DET") {
-          metadata.teams.DET.total_wins += 1;
-        } else {
-          metadata.teams.DET.total_losses += 1;
-        }
-      }
+    for (team in teamsStaticJSON) {
+      let teamObj = {
+        total_wins: 0,
+        total_losses: 0,
+        away_wins: 0,
+        home_wins: 0,
+        away_losses: 0,
+        home_losses: 0,
+        games_total: 0,
+      };
 
-      if (data.collection.models[i].get("homeTeam")["teamTricode"] === "DET") {
-        if (data.collection.models[i].get("winningTeamAcronym") === "DET") {
-          metadata.teams.DET.total_wins += 1;
-        } else {
-          metadata.teams.DET.total_losses += 1;
+      metadata.teams[team] = teamObj;
+    }
+
+    for (team in metadata.teams) {
+      for (i = 0; i < data.collection.models.length; i++) {
+        if (data.collection.models[i].get("awayTeam")["teamTricode"] === team) {
+          if (data.collection.models[i].get("winningTeamAcronym") === team) {
+            metadata.teams[team].total_wins += 1;
+            metadata.teams[team].away_wins += 1;
+          } else {
+            metadata.teams[team].total_losses += 1;
+            metadata.teams[team].away_losses += 1;
+          }
+
+          metadata.teams[team].games_total += 1;
+        }
+
+        if (data.collection.models[i].get("homeTeam")["teamTricode"] === team) {
+          if (data.collection.models[i].get("winningTeamAcronym") === team) {
+            metadata.teams[team].total_wins += 1;
+            metadata.teams[team].home_wins += 1;
+          } else {
+            metadata.teams[team].total_losses += 1;
+            metadata.teams[team].home_losses += 1;
+          }
+
+          metadata.teams[team].games_total += 1;
         }
       }
     }
+
+    metadata.teams = Object.filter(metadata.teams, (team) => team.games_total > 0);
 
     let obj = {
       block: global.pages.NBAGames.blocks.NBAGames,
       data: data,
       metadata: metadata,
     };
+
+    console.log(obj);
 
     this.$el.html(this.template(obj));
 

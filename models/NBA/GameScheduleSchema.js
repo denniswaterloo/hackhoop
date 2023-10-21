@@ -1,0 +1,36 @@
+var mongoose = require("mongoose");
+
+var NBAGameScheduleSchema = new mongoose.Schema({
+  gameId: { type: String, unique: true, required: true },
+  gameCode: String,
+  gameStatus: Number,
+  gameStatusText: String,
+  gameSequence: Number,
+  gameDateEst: String,
+  gameTimeEst: String,
+  gameDateTimeEst: String,
+  gameDateUTC: String,
+  gameTimeUTC: String,
+  gameDateTimeUTC: String,
+  awayTeamTime: String,
+  homeTeamTime: String,
+  day: String,
+  monthNum: Number,
+  weekNumber: Number,
+  weekName: String,
+  ifNecessary: String,
+  seriesGameNumber: String,
+  seriesText: String,
+  arenaName: String,
+  arenaState: String,
+  arenaCity: String,
+  postponedStatus: String,
+  branchLink: String,
+  gameSubtype: String,
+  broadcasters: {},
+  homeTeam: {},
+  awayTeam: {},
+  pointsLeaders: [],
+});
+
+module.exports = NBAGameScheduleSchema;

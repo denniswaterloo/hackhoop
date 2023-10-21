@@ -1,0 +1,1633 @@
+[
+  {
+    "leagues": ["ABA"],
+    "currentTeamFullName": "Utah Stars",
+    "currentTeamAcronym": "UTS",
+
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "1975-1976",
+    "seasonToYearBegin": 1975,
+    "seasonToYearEnd": 1976,
+
+    "historicalTeamAcronyms": ["UTS", "LAS", "ANA"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["ABA"],
+        "teamName": "Utah Stars",
+        "teamAcronym": "UTS",
+
+        "seasonFromString": "1970-1971",
+        "seasonFromYearBegin": 1970,
+        "seasonFromYearEnd": 1971,
+        "seasonToString": "1975-1976",
+        "seasonToYearBegin": 1975,
+        "seasonToYearEnd": 1976
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Los Angeles Stars",
+        "teamAcronym": "LAS",
+
+        "seasonFromString": "1968-1969",
+        "seasonFromYearBegin": 1968,
+        "seasonFromYearEnd": 1969,
+        "seasonToString": "1969-1970",
+        "seasonToYearBegin": 1969,
+        "seasonToYearEnd": 1970
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Anaheim Amigos",
+        "teamAcronym": "ANA",
+
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1967-1968",
+        "seasonToYearBegin": 1967,
+        "seasonToYearEnd": 1968
+      }
+    ]
+  },
+  {
+    "_id": "6530a8740c1b5c2682568a29",
+    "leagues": ["NBA", "BAA"],
+    "status": "defunct",
+    "currentTeamFullName": "Washington Capitols",
+    "currentTeamAcronym": "WAS",
+
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "1950-1951",
+    "seasonToYearBegin": 1950,
+    "seasonToYearEnd": 1951,
+
+    "historicalTeamAcronyms": ["WAS"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA", "BAA"],
+    "currentTeamFullName": "Chicago Stags",
+    "currentTeamAcronym": "CHS",
+
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "1949-1950",
+    "seasonToYearBegin": 1949,
+    "seasonToYearEnd": 1950,
+
+    "historicalTeamAcronyms": ["CHS"],
+    "historicalTeamNames": []
+  },
+  {
+    "_id": "6530a8740c1b5c2682568a2d",
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Anderson Packers",
+    "currentTeamAcronym": "AND",
+
+    "seasonFromString": "1949-1950",
+    "seasonFromYearBegin": 1949,
+    "seasonFromYearEnd": 1950,
+    "seasonToString": "1949-1950",
+    "seasonToYearBegin": 1949,
+    "seasonToYearEnd": 1950,
+
+    "historicalTeamAcronyms": ["AND"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Denver Nuggets",
+    "currentTeamAcronym": "DNN",
+
+    "seasonFromString": "1949-1950",
+    "seasonFromYearBegin": 1949,
+    "seasonFromYearEnd": 1950,
+    "seasonToString": "1949-1950",
+    "seasonToYearBegin": 1949,
+    "seasonToYearEnd": 1950,
+
+    "historicalTeamAcronyms": ["DNN"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["BAA"],
+    "currentTeamFullName": "Indianapolis Jets",
+    "currentTeamAcronym": "INJ",
+
+    "seasonFromString": "1948-1949",
+    "seasonFromYearBegin": 1948,
+    "seasonFromYearEnd": 1949,
+    "seasonToString": "1948-1949",
+    "seasonToYearBegin": 1948,
+    "seasonToYearEnd": 1949,
+
+    "historicalTeamAcronyms": ["INJ"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["ABA"],
+    "currentTeamFullName": "Kentucky Colonels",
+    "currentTeamAcronym": "KEN",
+
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "1975-1976",
+    "seasonToYearBegin": 1975,
+    "seasonToYearEnd": 1976,
+
+    "historicalTeamAcronyms": ["KEN"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA", "BAA"],
+    "currentTeamFullName": "Baltimore Bullets",
+    "currentTeamAcronym": "BLB",
+
+    "seasonFromString": "1947-1948",
+    "seasonFromYearBegin": 1947,
+    "seasonFromYearEnd": 1948,
+    "seasonToString": "1954-1955",
+    "seasonToYearBegin": 1954,
+    "seasonToYearEnd": 1955,
+
+    "historicalTeamAcronyms": ["BLB"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["BAA"],
+    "currentTeamFullName": "Cleveland Rebels",
+    "currentTeamAcronym": "CLR",
+
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "1946-1947",
+    "seasonToYearBegin": 1946,
+    "seasonToYearEnd": 1947,
+
+    "historicalTeamAcronyms": ["CLR"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["BAA"],
+    "status": "defunct",
+    "currentTeamFullName": "Detroit Falcons",
+    "currentTeamAcronym": "DEF",
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "1946-1947",
+    "seasonToYearBegin": 1946,
+    "seasonToYearEnd": 1947,
+    "historicalTeamAcronyms": ["DEF"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Indianapolis Olympians",
+    "currentTeamAcronym": "INO",
+    "seasonFromString": "1949-1950",
+    "seasonFromYearBegin": 1949,
+    "seasonFromYearEnd": 1950,
+    "seasonToString": "1952-1953",
+    "seasonToYearBegin": 1952,
+    "seasonToYearEnd": 1953,
+
+    "historicalTeamAcronyms": ["INO"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["ABA"],
+    "currentTeamFullName": "Memphis Sounds",
+    "currentTeamAcronym": "MMS",
+
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "1974-1975",
+    "seasonToYearBegin": 1974,
+    "seasonToYearEnd": 1975,
+
+    "historicalTeamAcronyms": ["MMS", "MMT", "MMP", "NOB"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["ABA"],
+        "teamName": "Memphis Sounds",
+        "teamAcronym": "MMS",
+
+        "seasonFromString": "1974-1975",
+        "seasonFromYearBegin": 1974,
+        "seasonFromYearEnd": 1975,
+        "seasonToString": "1974-1975",
+        "seasonToYearBegin": 1974,
+        "seasonToYearEnd": 1975
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Memphis Tams",
+        "teamAcronym": "MMT",
+
+        "seasonFromString": "1972-1973",
+        "seasonFromYearBegin": 1972,
+        "seasonFromYearEnd": 1973,
+        "seasonToString": "1973-1974",
+        "seasonToYearBegin": 1973,
+        "seasonToYearEnd": 1974
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Memphis Pros",
+        "teamAcronym": "MMP",
+
+        "seasonFromString": "1970-1971",
+        "seasonFromYearBegin": 1970,
+        "seasonFromYearEnd": 1971,
+        "seasonToString": "1971-1972",
+        "seasonToYearBegin": 1971,
+        "seasonToYearEnd": 1972
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "New Orleans Buccaneers",
+        "teamAcronym": "NOB",
+
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1969-1970",
+        "seasonToYearBegin": 1969,
+        "seasonToYearEnd": 1970
+      }
+    ]
+  },
+  {
+    "leagues": ["BAA"],
+    "currentTeamFullName": "Pittsburgh Ironmen",
+    "currentTeamAcronym": "PIT",
+
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "1946-1947",
+    "seasonToYearBegin": 1946,
+    "seasonToYearEnd": 1947,
+
+    "historicalTeamAcronyms": ["PIT"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["ABA"],
+    "currentTeamFullName": "Spirits of St. Louis",
+    "currentTeamAcronym": "SSL",
+
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "1975-1976",
+    "seasonToYearBegin": 1975,
+    "seasonToYearEnd": 1976,
+    "historicalTeamAcronyms": ["SSL", "CAR", "HSM"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["ABA"],
+        "teamName": "Spirits of St. Louis",
+        "teamAcronym": "SSL",
+        "seasonFromString": "1974-1975",
+        "seasonFromYearBegin": 1974,
+        "seasonFromYearEnd": 1975,
+        "seasonToString": "1975-1976",
+        "seasonToYearBegin": 1975,
+        "seasonToYearEnd": 1976,
+        "totalGames": 168,
+        "totalWins": 67,
+        "totalLosses": 101,
+        "playoffAppearances": 1,
+        "divisionTitles": 0,
+        "conferenceTitles": 0,
+        "championships": 0
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Carolina Cougars",
+        "teamAcronym": "CAR",
+        "seasonFromString": "1969-1970",
+        "seasonFromYearBegin": 1969,
+        "seasonFromYearEnd": 1970,
+        "seasonToString": "1973-1974",
+        "seasonToYearBegin": 1973,
+        "seasonToYearEnd": 1974
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Houston Mavericks",
+        "teamAcronym": "HSM",
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1968-1969",
+        "seasonToYearBegin": 1968,
+        "seasonToYearEnd": 1969
+      }
+    ]
+  },
+  {
+    "leagues": ["BAA"],
+    "currentTeamFullName": "Providence Steamrollers",
+    "currentTeamAcronym": "PRO",
+
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "1948-1949",
+    "seasonToYearBegin": 1948,
+    "seasonToYearEnd": 1949,
+
+    "historicalTeamAcronyms": ["PRO"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["ABA"],
+    "currentTeamFullName": "Pittsburgh Condors",
+    "currentTeamAcronym": "PTC",
+
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "1971-1972",
+    "seasonToYearBegin": 1971,
+    "seasonToYearEnd": 1972,
+
+    "historicalTeamAcronyms": ["PTC", "PTP", "MNP"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["ABA"],
+        "teamName": "Pittsburgh Condors",
+        "teamAcronym": "PTC",
+        "seasonFromString": "1970-1971",
+        "seasonFromYearBegin": 1970,
+        "seasonFromYearEnd": 1971,
+        "seasonToString": "1971-1972",
+        "seasonToYearBegin": 1971,
+        "seasonToYearEnd": 1972
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Minnesota Pipers",
+        "teamAcronym": "PTP",
+
+        "seasonFromString": "1968-1969",
+        "seasonFromYearBegin": 1968,
+        "seasonFromYearEnd": 1969,
+        "seasonToString": "1968-1969",
+        "seasonToYearBegin": 1968,
+        "seasonToYearEnd": 1969
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Pittsburgh Pipers",
+        "teamAcronym": "MNP",
+
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1969-1970",
+        "seasonToYearBegin": 1969,
+        "seasonToYearEnd": 1970
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA", "BAA"],
+    "currentTeamFullName": "St. Louis Bombers",
+    "currentTeamAcronym": "STB",
+    "numberOfSeasons": 4,
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "1949-1950",
+    "seasonToYearBegin": 1949,
+    "seasonToYearEnd": 1950,
+    "historicalTeamAcronyms": ["STB"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["ABA"],
+    "currentTeamFullName": "The Floridians",
+    "currentTeamAcronym": "FLO",
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "1971-1972",
+    "seasonToYearBegin": 1971,
+    "seasonToYearEnd": 1972,
+    "historicalTeamAcronyms": ["FLO", "MMF", "MNM"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["ABA"],
+        "teamName": "The Floridians",
+        "teamAcronym": "FLO",
+        "seasonFromString": "1970-1971",
+        "seasonFromYearBegin": 1970,
+        "seasonFromYearEnd": 1971,
+        "seasonToString": "1971-1972",
+        "seasonToYearBegin": 1971,
+        "seasonToYearEnd": 1972
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Miami Floridians",
+        "teamAcronym": "MMF",
+        "seasonFromString": "1968-1969",
+        "seasonFromYearBegin": 1968,
+        "seasonFromYearEnd": 1969,
+        "seasonToString": "1969-1970",
+        "seasonToYearBegin": 1969,
+        "seasonToYearEnd": 1970
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Minnesota Muskies",
+        "teamAcronym": "MNM",
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1967-1968",
+        "seasonToYearBegin": 1967,
+        "seasonToYearEnd": 1968
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Sheboygan Red Skins",
+    "currentTeamAcronym": "SHE",
+    "seasonFromString": "1949-1950",
+    "seasonFromYearBegin": 1949,
+    "seasonFromYearEnd": 1950,
+    "seasonToString": "1949-1950",
+    "seasonToYearBegin": 1949,
+    "seasonToYearEnd": 1950,
+    "historicalTeamAcronyms": ["SHE"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["BAA"],
+    "currentTeamFullName": "Toronto Huskies",
+    "currentTeamAcronym": "TRH",
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "1946-1947",
+    "seasonToYearBegin": 1946,
+    "seasonToYearEnd": 1947,
+    "historicalTeamAcronyms": ["TRH"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["ABA"],
+    "currentTeamFullName": "Virginia Squires",
+    "currentTeamAcronym": "VIR",
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "1975-1976",
+    "seasonToYearBegin": 1975,
+    "seasonToYearEnd": 1976,
+    "historicalTeamAcronyms": ["VIR", "WSA", "OAK"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["ABA"],
+        "teamName": "Virginia Squires",
+        "teamAcronym": "VIR",
+        "seasonFromString": "1970-1971",
+        "seasonFromYearBegin": 1970,
+        "seasonFromYearEnd": 1971,
+        "seasonToString": "1975-1976",
+        "seasonToYearBegin": 1975,
+        "seasonToYearEnd": 1976
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Washington Capitols",
+        "teamAcronym": "WSA",
+        "seasonFromString": "1969-1970",
+        "seasonFromYearBegin": 1969,
+        "seasonFromYearEnd": 1970,
+        "seasonToString": "1969-1970",
+        "seasonToYearBegin": 1969,
+        "seasonToYearEnd": 1970
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Oakland Oaks",
+        "teamAcronym": "OAK",
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1968-1969",
+        "seasonToYearBegin": 1968,
+        "seasonToYearEnd": 1969
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Waterloo Hawks",
+    "currentTeamAcronym": "WAT",
+    "seasonFromString": "1949-1950",
+    "seasonFromYearBegin": 1949,
+    "seasonFromYearEnd": 1950,
+    "seasonToString": "1949-1950",
+    "seasonToYearBegin": 1949,
+    "seasonToYearEnd": 1950,
+    "historicalTeamAcronyms": ["WAT"],
+    "historicalTeamNames": []
+  },
+
+  {
+    "leagues": ["NBA", "ABA"],
+    "status": "active",
+    "currentTeamFullName": "Denver Nuggets",
+    "currentTeamAcronym": "DEN",
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["DEN", "DNA", "DNR"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Denver Nuggets",
+        "teamAcronym": "DEN",
+        "seasonFromString": "1976-1977",
+        "seasonFromYearBegin": 1976,
+        "seasonFromYearEnd": 1977,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Denver Nuggets",
+        "teamAcronym": "DNA",
+        "seasonFromString": "1974-1975",
+        "seasonFromYearBegin": 1974,
+        "seasonFromYearEnd": 1975,
+        "seasonToString": "1975-1976",
+        "seasonToYearBegin": 1975,
+        "seasonToYearEnd": 1976
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Denver Rockets",
+        "teamAcronym": "DNR",
+        "numberOfSeasons": 7,
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1973-1974",
+        "seasonToYearBegin": 1973,
+        "seasonToYearEnd": 1974
+      }
+    ]
+  },
+
+  {
+    "leagues": ["NBA", "ABA"],
+    "status": "active",
+    "currentTeamFullName": "Denver Nuggets",
+    "currentTeamAcronym": "DEN",
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["DEN", "DNA", "DNR"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Denver Nuggets",
+        "teamAcronym": "DEN",
+        "seasonFromString": "1976-1977",
+        "seasonFromYearBegin": 1976,
+        "seasonFromYearEnd": 1977,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Denver Nuggets",
+        "teamAcronym": "DNA",
+        "seasonFromString": "1974-1975",
+        "seasonFromYearBegin": 1974,
+        "seasonFromYearEnd": 1975,
+        "seasonToString": "1975-1976",
+        "seasonToYearBegin": 1975,
+        "seasonToYearEnd": 1976
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Denver Rockets",
+        "teamAcronym": "DNR",
+        "numberOfSeasons": 7,
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1973-1974",
+        "seasonToYearBegin": 1973,
+        "seasonToYearEnd": 1974
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Charlotte Hornets",
+    "currentTeamAcronym": "CHA",
+    "seasonFromString": "1988-1989",
+    "seasonFromYearBegin": 1988,
+    "seasonFromYearEnd": 1989,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["CHO", "CHA", "CHH"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Charlotte Hornets",
+        "teamAcronym": "CHO",
+        "seasonFromString": "2014-2015",
+        "seasonFromYearBegin": 2014,
+        "seasonFromYearEnd": 2015,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Charlotte Bobcats",
+        "teamAcronym": "CHA",
+        "numberOfSeasons": 10,
+        "seasonFromString": "2004-2005",
+        "seasonFromYearBegin": 2004,
+        "seasonFromYearEnd": 2005,
+        "seasonToString": "2013-2014",
+        "seasonToYearBegin": 2013,
+        "seasonToYearEnd": 2014
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Charlotte Hornets",
+        "teamAcronym": "CHH",
+        "numberOfSeasons": 14,
+        "seasonFromString": "1988-1989",
+        "seasonFromYearBegin": 1988,
+        "seasonFromYearEnd": 1989,
+        "seasonToString": "2001-2002",
+        "seasonToYearBegin": 2001,
+        "seasonToYearEnd": 2002
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Dallas Mavericks",
+    "currentTeamAcronym": "DAL",
+    "seasonFromString": "1980-1981",
+    "seasonFromYearBegin": 1980,
+    "seasonFromYearEnd": 1981,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["DAL"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Cleveland Cavaliers",
+    "currentTeamAcronym": "CLE",
+    "seasonFromString": "1970-1971",
+    "seasonFromYearBegin": 1970,
+    "seasonFromYearEnd": 1971,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["CLE"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA", "ABA"],
+    "currentTeamFullName": "Brooklyn Nets",
+    "currentTeamAcronym": "BKN",
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["BRK", "NJN", "NYN", "NYA", "NJA"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Brooklyn Nets",
+        "teamAcronym": "BRK",
+        "seasonFromString": "2012-2013",
+        "seasonFromYearBegin": 2012,
+        "seasonFromYearEnd": 2013,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "New Jersey Nets",
+        "teamAcronym": "NJN",
+        "seasonFromString": "1977-1978",
+        "seasonFromYearBegin": 1977,
+        "seasonFromYearEnd": 1978,
+        "seasonToString": "2011-2012",
+        "seasonToYearBegin": 2011,
+        "seasonToYearEnd": 2012
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "New York Nets",
+        "teamAcronym": "NYN",
+        "seasonFromString": "1976-1977",
+        "seasonFromYearBegin": 1976,
+        "seasonFromYearEnd": 1977,
+        "seasonToString": "1976-1977",
+        "seasonToYearBegin": 1976,
+        "seasonToYearEnd": 1977
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "New York Nets",
+        "teamAcronym": "NYA",
+        "seasonFromString": "1968-1969",
+        "seasonFromYearBegin": 1968,
+        "seasonFromYearEnd": 1969,
+        "seasonToString": "1975-1976",
+        "seasonToYearBegin": 1975,
+        "seasonToYearEnd": 1976
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "New Jersey Americans",
+        "teamAcronym": "NJA",
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1967-1968",
+        "seasonToYearBegin": 1967,
+        "seasonToYearEnd": 1968
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA", "BAA"],
+    "currentTeamFullName": "Boston Celtics",
+    "currentTeamAcronym": "BOS",
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["BOS"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA", "BAA"],
+    "currentTeamFullName": "Detroit Pistons",
+    "currentTeamAcronym": "DET",
+    "seasonFromString": "1948-1949",
+    "seasonFromYearBegin": 1948,
+    "seasonFromYearEnd": 1949,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["DET", "FTW"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Detroit Pistons",
+        "teamAcronym": "DET",
+        "seasonFromString": "1957-1958",
+        "seasonFromYearBegin": 1957,
+        "seasonFromYearEnd": 1958,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA", "BAA"],
+        "teamName": "Fort Wayne Pistons",
+        "teamAcronym": "FTW",
+        "seasonFromString": "1948-1949",
+        "seasonFromYearBegin": 1948,
+        "seasonFromYearEnd": 1949,
+        "seasonToString": "1956-1957",
+        "seasonToYearBegin": 1956,
+        "seasonToYearEnd": 1957
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA", "BAA"],
+    "currentTeamFullName": "Golden State Warriors",
+    "currentTeamAcronym": "GSW",
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["GSW", "SFW", "PHW"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Golden State Warriors",
+        "teamAcronym": "GSW",
+        "seasonFromString": "1971-1972",
+        "seasonFromYearBegin": 1971,
+        "seasonFromYearEnd": 1972,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "San Francisco Warriors",
+        "teamAcronym": "SFW",
+        "seasonFromString": "1962-1963",
+        "seasonFromYearBegin": 1962,
+        "seasonFromYearEnd": 1963,
+        "seasonToString": "1970-1971",
+        "seasonToYearBegin": 1970,
+        "seasonToYearEnd": 1971
+      },
+      {
+        "leagues": ["NBA", "BAA"],
+        "teamName": "Philadelphia Warriors",
+        "teamAcronym": "PHW",
+        "seasonFromString": "1946-1947",
+        "seasonFromYearBegin": 1946,
+        "seasonFromYearEnd": 1947,
+        "seasonToString": "1961-1962",
+        "seasonToYearBegin": 1961,
+        "seasonToYearEnd": 1962
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Houston Rockets",
+    "currentTeamAcronym": "HOU",
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["HOU", "SDR"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Houston Rockets",
+        "teamAcronym": "HOU",
+        "seasonFromString": "1971-1972",
+        "seasonFromYearBegin": 1971,
+        "seasonFromYearEnd": 1972,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "San Diego Rockets",
+        "teamAcronym": "SDR",
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1970-1971",
+        "seasonToYearBegin": 1970,
+        "seasonToYearEnd": 1971
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA", "ABA"],
+    "currentTeamFullName": "Indiana Pacers",
+    "currentTeamAcronym": "IND",
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["IND", "INA"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Indiana Pacers",
+        "teamAcronym": "IND",
+        "numberOfSeasons": 47,
+        "seasonFromString": "1976-1977",
+        "seasonFromYearBegin": 1976,
+        "seasonFromYearEnd": 1977,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Indiana Pacers",
+        "teamAcronym": "INA",
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1975-1976",
+        "seasonToYearBegin": 1975,
+        "seasonToYearEnd": 1976
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Los Angeles Clippers",
+    "currentTeamAcronym": "LAC",
+    "seasonFromString": "1970-1971",
+    "seasonFromYearBegin": 1970,
+    "seasonFromYearEnd": 1971,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["LAC", "SDC", "BUF"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Los Angeles Clippers",
+        "teamAcronym": "LAC",
+        "seasonFromString": "1984-1985",
+        "seasonFromYearBegin": 1984,
+        "seasonFromYearEnd": 1985,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "San Diego Clippers",
+        "teamAcronym": "SDC",
+        "seasonFromString": "1978-1979",
+        "seasonFromYearBegin": 1978,
+        "seasonFromYearEnd": 1979,
+        "seasonToString": "1983-1984",
+        "seasonToYearBegin": 1983,
+        "seasonToYearEnd": 1984
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Buffalo Braves",
+        "teamAcronym": "BUF",
+        "seasonFromString": "1970-1971",
+        "seasonFromYearBegin": 1970,
+        "seasonFromYearEnd": 1971,
+        "seasonToString": "1977-1978",
+        "seasonToYearBegin": 1977,
+        "seasonToYearEnd": 1978
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Memphis Grizzlies",
+    "currentTeamAcronym": "MEM",
+    "seasonFromString": "1995-1996",
+    "seasonFromYearBegin": 1995,
+    "seasonFromYearEnd": 1996,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["MEM", "VAN"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Memphis Grizzlies",
+        "teamAcronym": "MEM",
+        "seasonFromString": "2001-2002",
+        "seasonFromYearBegin": 2001,
+        "seasonFromYearEnd": 2002,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Vancouver Grizzlies",
+        "teamAcronym": "VAN",
+        "seasonFromString": "1995-1996",
+        "seasonFromYearBegin": 1995,
+        "seasonFromYearEnd": 1996,
+        "seasonToString": "2000-2001",
+        "seasonToYearBegin": 2000,
+        "seasonToYearEnd": 2001
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Miami Heat",
+    "currentTeamAcronym": "MIA",
+    "seasonFromString": "1988-1989",
+    "seasonFromYearBegin": 1988,
+    "seasonFromYearEnd": 1989,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["MIA"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA", "BAA"],
+    "currentTeamFullName": "Los Angeles Lakers",
+    "currentTeamAcronym": "LAL",
+    "seasonFromString": "1948-1949",
+    "seasonFromYearBegin": 1948,
+    "seasonFromYearEnd": 1949,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["LAL", "MNL"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Los Angeles Lakers",
+        "teamAcronym": "LAL",
+        "seasonFromString": "1960-1961",
+        "seasonFromYearBegin": 1960,
+        "seasonFromYearEnd": 1961,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA", "BAA"],
+        "teamName": "Minneapolis Lakers",
+        "teamAcronym": "MNL",
+        "seasonFromString": "1948-1949",
+        "seasonFromYearBegin": 1948,
+        "seasonFromYearEnd": 1949,
+        "seasonToString": "1959-1960",
+        "seasonToYearBegin": 1959,
+        "seasonToYearEnd": 1960
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "New Orleans Pelicans",
+    "currentTeamAcronym": "NOH",
+    "seasonFromString": "2002-2003",
+    "seasonFromYearBegin": 2002,
+    "seasonFromYearEnd": 2003,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["NOP", "NOH", "NOK"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "New Orleans Pelicans",
+        "teamAcronym": "NOP",
+
+        "seasonFromString": "2013-2014",
+        "seasonFromYearBegin": 2013,
+        "seasonFromYearEnd": 2014,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "NO/Ok. City Hornets",
+        "teamAcronym": "NOH",
+
+        "seasonFromString": "2005-2006",
+        "seasonFromYearBegin": 2005,
+        "seasonFromYearEnd": 2006,
+        "seasonToString": "2006-2007",
+        "seasonToYearBegin": 2006,
+        "seasonToYearEnd": 2007
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "New Orleans Hornets",
+        "teamAcronym": "NOK",
+
+        "seasonFromString": "2002-2003",
+        "seasonFromYearBegin": 2002,
+        "seasonFromYearEnd": 2003,
+        "seasonToString": "2012-2013",
+        "seasonToYearBegin": 2012,
+        "seasonToYearEnd": 2013
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Minnesota Timberwolves",
+    "currentTeamAcronym": "MIN",
+
+    "seasonFromString": "1989-1990",
+    "seasonFromYearBegin": 1989,
+    "seasonFromYearEnd": 1990,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+
+    "historicalTeamAcronyms": ["MIN"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Milwaukee Bucks",
+    "currentTeamAcronym": "MIL",
+    "seasonFromString": "1968-1969",
+    "seasonFromYearBegin": 1968,
+    "seasonFromYearEnd": 1969,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+
+    "historicalTeamAcronyms": ["MIL"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Orlando Magic",
+    "currentTeamAcronym": "ORL",
+
+    "seasonFromString": "1989-1990",
+    "seasonFromYearBegin": 1989,
+    "seasonFromYearEnd": 1990,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+
+    "historicalTeamAcronyms": ["ORL"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Oklahoma City Thunder",
+    "currentTeamAcronym": "OKC",
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["OKC", "SEA"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Oklahoma City Thunder",
+        "teamAcronym": "OKC",
+
+        "seasonFromString": "2008-2009",
+        "seasonFromYearBegin": 2008,
+        "seasonFromYearEnd": 2009,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Seattle SuperSonics",
+        "teamAcronym": "SEA",
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "2007-2008",
+        "seasonToYearBegin": 2007,
+        "seasonToYearEnd": 2008
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA", "BAA"],
+    "currentTeamFullName": "New York Knicks",
+    "currentTeamAcronym": "NYK",
+    "seasonFromString": "1946-1947",
+    "seasonFromYearBegin": 1946,
+    "seasonFromYearEnd": 1947,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["NYK"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Phoenix Suns",
+    "currentTeamAcronym": "PHX",
+    "seasonFromString": "1968-1969",
+    "seasonFromYearBegin": 1968,
+    "seasonFromYearEnd": 1969,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["PHO"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Philadelphia 76ers",
+    "currentTeamAcronym": "PHI",
+    "seasonFromString": "1949-1950",
+    "seasonFromYearBegin": 1949,
+    "seasonFromYearEnd": 1950,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["PHI", "SYR"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Philadelphia 76ers",
+        "teamAcronym": "PHI",
+        "numberOfSeasons": 60,
+        "seasonFromString": "1963-1964",
+        "seasonFromYearBegin": 1963,
+        "seasonFromYearEnd": 1964,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Syracuse Nationals",
+        "teamAcronym": "SYR",
+        "seasonFromString": "1949-1950",
+        "seasonFromYearBegin": 1949,
+        "seasonFromYearEnd": 1950,
+        "seasonToString": "1962-1963",
+        "seasonToYearBegin": 1962,
+        "seasonToYearEnd": 1963
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Portland Trail Blazers",
+    "currentTeamAcronym": "POR",
+    "seasonFromString": "1970-1971",
+    "seasonFromYearBegin": 1970,
+    "seasonFromYearEnd": 1971,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023
+  },
+  {
+    "leagues": ["NBA", "BAA"],
+    "currentTeamFullName": "Sacramento Kings",
+    "currentTeamAcronym": "SAC",
+    "seasonFromString": "1948-1949",
+    "seasonFromYearBegin": 1948,
+    "seasonFromYearEnd": 1949,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["SAC", "KCK", "KCO", "CIN", "ROC"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Sacramento Kings",
+        "teamAcronym": "SAC",
+        "seasonFromString": "1985-1986",
+        "seasonFromYearBegin": 1985,
+        "seasonFromYearEnd": 1986,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Kansas City Kings",
+        "teamAcronym": "KCK",
+        "seasonFromString": "1975-1976",
+        "seasonFromYearBegin": 1975,
+        "seasonFromYearEnd": 1976,
+        "seasonToString": "1984-1985",
+        "seasonToYearBegin": 1984,
+        "seasonToYearEnd": 1985
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Kansas City-Omaha Kings",
+        "teamAcronym": "KCO",
+        "seasonFromString": "1972-1973",
+        "seasonFromYearBegin": 1972,
+        "seasonFromYearEnd": 1973,
+        "seasonToString": "1974-1975",
+        "seasonToYearBegin": 1974,
+        "seasonToYearEnd": 1975
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Cincinnati Royals",
+        "teamAcronym": "CIN",
+        "seasonFromString": "1957-1958",
+        "seasonFromYearBegin": 1957,
+        "seasonFromYearEnd": 1958,
+        "seasonToString": "1971-1972",
+        "seasonToYearBegin": 1971,
+        "seasonToYearEnd": 1972
+      },
+      {
+        "leagues": ["NBA", "BAA"],
+        "teamName": "Rochester Royals",
+        "teamAcronym": "ROC",
+        "seasonFromString": "1948-1949",
+        "seasonFromYearBegin": 1948,
+        "seasonFromYearEnd": 1949,
+        "seasonToString": "1956-1957",
+        "seasonToYearBegin": 1956,
+        "seasonToYearEnd": 1957
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA", "ABA"],
+    "currentTeamFullName": "San Antonio Spurs",
+    "currentTeamAcronym": "SAS",
+    "seasonFromString": "1967-1968",
+    "seasonFromYearBegin": 1967,
+    "seasonFromYearEnd": 1968,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["SAS", "SAA", "DLC", "TEX"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "San Antonio Spurs",
+        "teamAcronym": "SAS",
+        "seasonFromString": "1976-1977",
+        "seasonFromYearBegin": 1976,
+        "seasonFromYearEnd": 1977,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "San Antonio Spurs",
+        "teamAcronym": "SAA",
+        "seasonFromString": "1973-1974",
+        "seasonFromYearBegin": 1973,
+        "seasonFromYearEnd": 1974,
+        "seasonToString": "1975-1976",
+        "seasonToYearBegin": 1975,
+        "seasonToYearEnd": 1976
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Texas Chaparrals",
+        "teamAcronym": "DLC",
+        "seasonFromString": "1970-1971",
+        "seasonFromYearBegin": 1970,
+        "seasonFromYearEnd": 1971,
+        "seasonToString": "1970-1971",
+        "seasonToYearBegin": 1970,
+        "seasonToYearEnd": 1971
+      },
+      {
+        "leagues": ["ABA"],
+        "teamName": "Dallas Chaparrals",
+        "teamAcronym": "TEX",
+        "seasonFromString": "1967-1968",
+        "seasonFromYearBegin": 1967,
+        "seasonFromYearEnd": 1968,
+        "seasonToString": "1972-1973",
+        "seasonToYearBegin": 1972,
+        "seasonToYearEnd": 1973
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Utah Jazz",
+    "currentTeamAcronym": "UTA",
+    "seasonFromString": "1974-1975",
+    "seasonFromYearBegin": 1974,
+    "seasonFromYearEnd": 1975,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["UTA", "NOJ"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Utah Jazz",
+        "teamAcronym": "UTA",
+        "numberOfSeasons": 44,
+        "seasonFromString": "1979-1980",
+        "seasonFromYearBegin": 1979,
+        "seasonFromYearEnd": 1980,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "New Orleans Jazz",
+        "teamAcronym": "NOJ",
+        "numberOfSeasons": 5,
+        "seasonFromString": "1974-1975",
+        "seasonFromYearBegin": 1974,
+        "seasonFromYearEnd": 1975,
+        "seasonToString": "1978-1979",
+        "seasonToYearBegin": 1978,
+        "seasonToYearEnd": 1979
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Toronto Raptors",
+    "currentTeamAcronym": "TOR",
+    "seasonFromString": "1995-1996",
+    "seasonFromYearBegin": 1995,
+    "seasonFromYearEnd": 1996,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["TOR"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Washington Wizards",
+    "currentTeamAcronym": "WAS",
+    "seasonFromString": "1961-1962",
+    "seasonFromYearBegin": 1961,
+    "seasonFromYearEnd": 1962,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["WAS", "WSB", "CAP", "BAL", "CHZ", "CHP"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Washington Wizards",
+        "teamAcronym": "WAS",
+        "seasonFromString": "1997-1998",
+        "seasonFromYearBegin": 1997,
+        "seasonFromYearEnd": 1998,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Washington Bullets",
+        "teamAcronym": "WSB",
+        "seasonFromString": "1974-1975",
+        "seasonFromYearBegin": 1974,
+        "seasonFromYearEnd": 1975,
+        "seasonToString": "1996-1997",
+        "seasonToYearBegin": 1996,
+        "seasonToYearEnd": 1997
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Capital Bullets",
+        "teamAcronym": "CAP",
+        "seasonFromString": "1973-1974",
+        "seasonFromYearBegin": 1973,
+        "seasonFromYearEnd": 1974,
+        "seasonToString": "1973-1974",
+        "seasonToYearBegin": 1973,
+        "seasonToYearEnd": 1974
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Baltimore Bullets",
+        "teamAcronym": "BAL",
+        "seasonFromString": "1963-1964",
+        "seasonFromYearBegin": 1963,
+        "seasonFromYearEnd": 1964,
+        "seasonToString": "1972-1973",
+        "seasonToYearBegin": 1972,
+        "seasonToYearEnd": 1973
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Chicago Zephyrs",
+        "teamAcronym": "CHZ",
+        "seasonFromString": "1962-1963",
+        "seasonFromYearBegin": 1962,
+        "seasonFromYearEnd": 1963,
+        "seasonToString": "1962-1963",
+        "seasonToYearBegin": 1962,
+        "seasonToYearEnd": 1963
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Chicago Packers",
+        "teamAcronym": "CHP",
+        "seasonFromString": "1961-1962",
+        "seasonFromYearBegin": 1961,
+        "seasonFromYearEnd": 1962,
+        "seasonToString": "1961-1962",
+        "seasonToYearBegin": 1961,
+        "seasonToYearEnd": 1962
+      }
+    ]
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Chicago Bulls",
+    "currentTeamAcronym": "CHI",
+    "seasonFromString": "1966-1967",
+    "seasonFromYearBegin": 1966,
+    "seasonFromYearEnd": 1967,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+    "historicalTeamAcronyms": ["CHI"],
+    "historicalTeamNames": []
+  },
+  {
+    "leagues": ["NBA"],
+    "currentTeamFullName": "Atlanta Hawks",
+    "currentTeamAcronym": "ATL",
+    "numberOfSeasons": 74,
+    "seasonFromString": "1949-1950",
+    "seasonFromYearBegin": 1949,
+    "seasonFromYearEnd": 1950,
+    "seasonToString": "2022-2023",
+    "seasonToYearBegin": 2022,
+    "seasonToYearEnd": 2023,
+
+    "historicalTeamAcronyms": ["ATL", "STL", "MLH", "TRI"],
+    "historicalTeamNames": [
+      {
+        "leagues": ["NBA"],
+        "teamName": "Atlanta Hawks",
+        "teamAcronym": "ATL",
+        "seasonFromString": "1968-1969",
+        "seasonFromYearBegin": 1968,
+        "seasonFromYearEnd": 1969,
+        "seasonToString": "2022-2023",
+        "seasonToYearBegin": 2022,
+        "seasonToYearEnd": 2023
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "St. Louis Hawks",
+        "teamAcronym": "STL",
+        "seasonFromString": "1955-1956",
+        "seasonFromYearBegin": 1955,
+        "seasonFromYearEnd": 1956,
+        "seasonToString": "1967-1968",
+        "seasonToYearBegin": 1967,
+        "seasonToYearEnd": 1968
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Milwaukee Hawks",
+        "teamAcronym": "MLH",
+        "seasonFromString": "1951-1952",
+        "seasonFromYearBegin": 1951,
+        "seasonFromYearEnd": 1952,
+        "seasonToString": "1954-1955",
+        "seasonToYearBegin": 1954,
+        "seasonToYearEnd": 1955
+      },
+      {
+        "leagues": ["NBA"],
+        "teamName": "Tri-Cities Blackhawks",
+        "teamAcronym": "TRI",
+        "seasonFromString": "1949-1950",
+        "seasonFromYearBegin": 1949,
+        "seasonFromYearEnd": 1950,
+        "seasonToString": "1950-1951",
+        "seasonToYearBegin": 1950,
+        "seasonToYearEnd": 1951
+      }
+    ]
+  }
+]
