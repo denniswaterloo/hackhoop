@@ -1,0 +1,37 @@
+table.stat-table.border-bottom-none
+  thead
+    <tr class="tr tr-legend">
+    <td class="td-legend stat-td-width-p padding-8">Player</td>
+    <td class="td-legend padding-8">Team</td>
+    <td class="td-legend padding-8">Psn</td>
+    <td class="td-legend padding-8">Exp</td>
+    <td class="td-legend padding-8">GP</td>
+
+    </tr>
+  tbody  
+
+    tr
+
+      <td class="stat-td font-size-10pt text-align-left font-medium padding-8">
+
+      <div class="player-pic">
+      <img onerror="this.onerror=null; this.src='/images/statpit/players/default.avif'" src="/images/statpit/players/<%= personId %>.png" alt="" />
+      </div>
+
+      <div class="player-name"><%= playerFirstName %> <%= playerLastName %></div>
+
+      </td>
+      <td class="stat-td font-size-10pt text-align-left font-regular padding-8">
+
+      <div class="team-logo-small">
+        <img src="/images/statpit/seasons/2022-23/<%= teamAcronym %>.png" alt="" />
+      </div>
+      <div class="team-name-small">
+        <%= teamAcronym %>
+      </div>
+
+      </td>
+      <td class="stat-td font-size-10pt text-align-left font-regular padding-8">
+        | <%= player.position %>
+      </td>
+

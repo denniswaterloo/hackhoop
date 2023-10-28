@@ -1,0 +1,21 @@
+<td class="stat-td font-size-10pt text-align-left font-book padding-8"><%= division_rank %></td>
+<td class="stat-td text-align-left font-size-10pt stat-font-medium padding-8">
+  <div class="team-logo-small">
+  //- <img onerror="this.onerror=null; this.src='/images/statpit/nbalogo.png'" alt='' src='/images/statpit/seasons/1946-4fdsfsdf7/<%= acronym %>.png' />
+  <img onerror="this.onerror=null; this.src='/images/statpit/nbalogo.png'" alt='' src='/images/statpit/seasons/<%= season %>/<%= acronym %>.png' />
+  </div>
+  <% if (playoffs == true) { %>
+  <div class="team-name-small-with-sup"><%= acronym %>
+  <sup class="font-book"><%= seed %></sup>
+  </div>
+  <% } else { %>
+  <div class="team-name-small"><%= acronym %>
+  </div>
+  <% } %>
+</td>
+<td class="stat-td text-align-center font-size-10pt stat-font-regular padding-8"><%= wins %>-<%= losses %></td>
+<td class="stat-td text-align-center font-size-10pt stat-font-regular padding-8"><%= (wins / games).toFixed(3) %></td>
+<td class="stat-td text-align-center font-size-10pt stat-font-regular padding-8"><%= division_games_behind %></td>
+<td class="stat-td text-align-center font-size-10pt stat-font-regular padding-8"><%= home_wins %>-<%= home_losses %></td>
+<td class="stat-td text-align-center font-size-10pt stat-font-regular padding-8">-</td>
+<td class="stat-td text-align-center font-size-10pt stat-font-regular padding-8">./</td>

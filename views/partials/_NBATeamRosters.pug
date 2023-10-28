@@ -1,0 +1,56 @@
+.modal
+  <select class="seasonType" name="seasonType" style="width: 100%">
+    <option value="all">All</option>
+    <option value="regularseason">Regular Season</option>
+    <option value="playoffs">Playoffs</option>
+  </select>
+.block
+  .block-header
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+          | Games: 
+          span.font-medium
+            | <%= data.collection.length %> 
+      .float-right
+        a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+          | Filter
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+  .block-body
+
+    <% _.each(season.teams, function(team, index, val) { %>
+
+    <div class="section <%= index %>">
+      .section-header.font-medium
+        .float-left
+          | <%= team.team_fullname %>
+        .float-right(style='color: #333')
+          | [ 
+          a.font-regular.underline.splitViewToggle(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            span.font-light(style='color: #000')
+              | \
+            | List
+          | &nbsp;]
+          |  ·   
+          | [ 
+          a.font-regular.underline.showHideToggle.stateShow(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            span.font-light(style='color: #000')
+              | -
+            | Hide
+          | &nbsp;]
+      .section-body
+        table.stat-table.border-bottom-none
+          thead
+            tr.stat-tr.stat-tr-legend
+              td.td-legend.width-100.padding-8 Player
+              td.td-legend.width-min.padding-8 Psn
+              td.td-legend.width-min.padding-8 Ht
+              td.td-legend.width-min.padding-8 Wt
+              td.td-legend.padding-8 Age
+              td.td-legend.width-min.padding-8 Exp
+
+          tbody    
+    </div>          
+    <% }) %>

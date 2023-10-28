@@ -1,0 +1,52 @@
+.modal
+  <select class="seasonType" name="seasonType" style="width: 100%">
+    <option value="all">All</option>
+    <option value="regularseason">Regular Season</option>
+    <option value="playoffs">Playoffs</option>
+  </select>
+.block
+  .block-header
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+          | Awards: 
+          span.font-medium
+            | <%= data.collection.length %> 
+      .float-right
+        a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+          | Filter
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+  .block-body
+
+    <% _.each(season.awards, function(award, ind, val) { %> 
+    <div class="section <%= ind %>"> 
+      .section-header.font-medium
+        | <%= award.description %>
+      .section-body
+        <% _.each(award.sub_categories, function(subcategory, index, val) { %>
+        .subdivision
+          .subdivision-header
+            span.font-light
+              | .\      
+            span.font-medium       
+              | <%= subcategory.description %>
+
+          .subdivision-body
+            table.stat-table.border-bottom-none
+              thead
+                <tr class="tr tr-legend">
+                <td class="td-legend width-min padding-8">Player</td>
+                <td class="td-legend padding-8">Team</td>
+                <td class="td-legend padding-8">Exp</td>
+                <td class="td-legend padding-8">GP</td>
+
+                </tr>
+              <tbody class="<%= index %>">
+
+              </tbody>  
+
+        <% }) %>
+    </div>
+    <% }) %>

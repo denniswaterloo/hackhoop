@@ -1,0 +1,50 @@
+.modal
+  <select class="seasonType" name="seasonType" style="width: 100%">
+    <option value="all">All</option>
+    <option value="regularseason">Regular Season</option>
+    <option value="playoffs">Playoffs</option>
+  </select>
+.block
+  .block-header
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+          | Games: 
+          span.font-medium
+            | <%= data.collection.length %> 
+      .float-right
+        a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+          | Filter
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+  .block-body
+    .section
+      .section-header.font-medium
+        .float-left
+          | Games
+        .float-right
+        .float-right(style='color: #333')
+          | [ 
+          a.font-regular.underline.splitViewToggle(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            span.font-light(style='color: #000')
+              | \
+            | List
+          | &nbsp;]
+          |  ·   
+          | [ 
+          a.font-regular.underline.showHideToggle.stateShow(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            span.font-light(style='color: #000')
+              | -
+            | Hide
+          | &nbsp;]
+      .section-body
+        table.stat-table.border-bottom-none
+          tbody
+            tr.stat-tr.stat-tr-legend
+              td.td-legend.width-100.padding-8 Player
+              td.td-legend.width-min.padding-8 Ps
+              td.td-legend.width-min.padding-8 Ht
+              td.td-legend.padding-8 DftYr
+              td.td-legend.width-min.padding-8 DRd
+              td.td-legend.width-min.padding-8 D#

@@ -8,7 +8,7 @@
       <td class="td-legend padding-8">Series</td>
       <td class="td-legend padding-8">AwayDis.Tm</td>
       <td class="td-legend padding-8">HomeAdv.Tm</td>
-      <td class="td-legend padding-8">WL</td>
+      <td class="td-legend padding-8">W-L</td>
       </tr>
     tbody  
       <% _.each(playoffseries, function(playoffserie, index) { %>
@@ -18,7 +18,8 @@
         <td class="stat-td font-size-10pt text-align-left font-regular padding-8"><%= playoffserie.playoffRoundName.replace(/Conference/, "Conf.") %></td>
         <td class="stat-td font-size-10pt text-align-left font-regular padding-8">
         <div class="team-logo-small">
-          <img src="<%=  teamsStaticJSON[playoffserie.awayDisadvantageTeamAcronym]['historical'][playoffserie.seasonYear]['logo'] %>" alt="" />
+          <img src="/images/statpit/seasons/<%= seasonYear %>/<%= playoffserie.awayDisadvantageTeamAcronym %>.png" alt="" />
+          //- <img src="<%=  teamsStaticJSON[playoffserie.awayDisadvantageTeamAcronym]['historical'][playoffserie.seasonYear]['logo'] %>" alt="" />
         </div>
         <div class="team-name-small">
           <%= playoffserie.awayDisadvantageTeamAcronym %>
@@ -26,7 +27,7 @@
         </td>
         <td class="stat-td font-size-10pt text-align-left font-regular padding-8">
         <div class="team-logo-small">
-          <img src="/images/statpit/nba_teams/<%= playoffserie.homeAdvantageTeamAcronym %>.png" alt="" />
+          <img src="/images/statpit/seasons/<%= seasonYear %>/<%= playoffserie.homeAdvantageTeamAcronym %>.png" alt="" />
         </div>
         <div class="team-name-small">
           <%= playoffserie.homeAdvantageTeamAcronym %>

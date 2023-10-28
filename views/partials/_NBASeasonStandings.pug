@@ -1,0 +1,117 @@
+.modal
+  <select class="seasonType" name="seasonType" style="width: 100%">
+    <option value="all">All</option>
+    <option value="regularseason">Regular Season</option>
+    <option value="playoffs">Playoffs</option>
+  </select>
+.block
+  .block-header
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+          | Total Teams: 
+          span.font-bold
+            | <%= data.collection.length %> 
+
+
+      .float-right
+        a#dddd.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+          | Filter
+
+
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular
+          | Lastest Standings - Season Ending
+
+  .block-body
+    <% if (seasons.divisions) { %>
+    <% _.each(seasons.divisions, function(division, index, value) { %> 
+    .section
+      .section-header.font-medium
+        .float-left
+          | <%= index.charAt(0).toUpperCase() + index.slice(1) %> Division
+        .float-right
+          | [ 
+          a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            | \
+          | &nbsp;]
+          |  ·   
+          | [ 
+          a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            | -Hide
+          | &nbsp;]
+      .section-body
+        <table class="stat-table border-bottom-none <%= index %>-division">
+          thead
+            <tr class="stat-tr tr-legend">
+              <td class="td-legend stat-td-width-tiny padding-8">PS</td>
+              <td class="td-legend stat-td-width-f padding-8">Team</td>
+              <td class="td-legend text-align-center stat-td-width-c padding-8">W-L</td>
+
+              <td class="td-legend stat-td-width-min padding-8">Pct</td>
+              <td class="td-legend stat-td-width-min padding-8">GB</td>
+              <td class="td-legend stat-td-width-c padding-8">Home</td>
+              <td class="td-legend stat-td-width-a padding-8">L10</td>
+              <td class="td-legend stat-td-width-min padding-8">Strk</td>
+            </tr>
+        </table>    
+    <% }) %>
+    <% } else { %>
+    <% _.each(seasons.conferences, function(conf, index, value) { %> 
+    .section
+      .section-header.font-medium
+        <% console.log(value) %>
+        .float-left
+
+          | <%= index.charAt(0).toUpperCase() + index.slice(1) %> Conferences
+        .float-right(style='color: #333')
+          | [ 
+          a.font-regular.underline.splitViewToggle(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            span.font-light(style='color: #000')
+              | \
+            | Conference
+          | &nbsp;]
+          |  ·   
+          | [ 
+          a.font-regular.underline.showHideToggle.stateShow(style='color: #0074cc' data-micromodal-trigger="modal-1")
+            span.font-light(style='color: #000')
+              | -
+            | Hide
+          | &nbsp;]
+      .section-body.showHide
+
+        <% _.each(value[index], function(division, ind, val) { %> 
+
+        .subdivision
+          .subdivision-header
+            span.font-light
+              | .\      
+            span.font-medium       
+              | <%= ind.charAt(0).toUpperCase() + ind.slice(1) %> Division
+
+          .subdivision-body
+
+
+            <table class="stat-table border-bottom-none <%= ind %>-division">
+              thead
+                <tr class="stat-tr tr-legend">
+                  <td class="td-legend stat-td-width-tiny padding-8">Rk</td>
+                  <td class="td-legend stat-td-width-f padding-8">Team</td>
+                  <td class="td-legend text-align-center stat-td-width-c padding-8">W-L</td>
+
+                  <td class="td-legend stat-td-width-min padding-8">Pct</td>
+                  <td class="td-legend stat-td-width-min padding-8">GB</td>
+                  <td class="td-legend stat-td-width-c padding-8">Home</td>
+                  <td class="td-legend stat-td-width-a padding-8">L10</td>
+                  <td class="td-legend stat-td-width-min padding-8">Strk</td>
+                </tr>
+            </table>    
+
+        <% }) %>
+
+    <% }) %>
+
+    <% } %>         
+
+

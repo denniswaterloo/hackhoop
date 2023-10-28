@@ -21,11 +21,19 @@ global.backbone.collections.NBAGames = Backbone.Collection.extend({
     filtered = this.filter(function (franchise) {
       games_total = 0;
 
-      for (season in franchise.get("seasons")) {
-        games_total += franchise.get("seasons")[season].games_total;
-      }
+      // for (season in franchise.get("seasons")) {
+      //   games_total += franchise.get("seasons")["1946-47"].games_total;
+      // }
 
-      return games_total > 0;
+      if (franchise.get("seasons")) {
+        if (franchise.get("seasons")["1946-47"]) {
+          return franchise.get("seasons")["1946-47"].games_total > 0;
+        } else {
+          return false;
+        }
+      } else {
+        return false;
+      }
     });
     return new global.backbone.collections.NBAGames(filtered);
   },
@@ -33,7 +41,7 @@ global.backbone.collections.NBAGames = Backbone.Collection.extend({
 
 global.backbone.views.NBAFranchiseView = Backbone.View.extend({
   tagName: "div",
-  className: "nba-franchise",
+  className: "nba-franchise section",
   template: _.template($("#NBAFranchiseView").html()),
   initialize: function () {
     $(this.render().el).hide().fadeIn(2000);
@@ -56,7 +64,7 @@ global.backbone.views.NBAFranchiseView = Backbone.View.extend({
 
 global.backbone.views.NBAFranchiseNameChangesView = Backbone.View.extend({
   tagName: "div",
-  className: "nba-franchise",
+  className: "nba-franchise section",
   template: _.template($("#NBAFranchiseNameChangesView").html()),
   initialize: function () {
     $(this.render().el).hide().fadeIn(2000);
@@ -131,6 +139,8 @@ jQuery(function () {
   global.pages.NBAGames.blocks.NBAFranchises.data = global.pages.NBAGames.blocks.NBAFranchises.data.filterByHasGames();
 
   global.nbagamesview = new global.backbone.views[page.blocks.NBAFranchises.default_view]({ collection: global.pages.NBAGames.blocks.NBAFranchises.data });
+
+  console.log(global.pages.NBAGames.blocks.NBAFranchises.data);
 
   $(".page-body").append(global.nbagamesview.$el);
 });

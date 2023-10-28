@@ -138,13 +138,23 @@ module.exports = function (app, db, schemas) {
   });
 
   app.get("/nba/gameschedules", function (req, res) {
-    NBAGameSchedule.find()
-      .lean()
-      .exec(function (games) {
-        if (!err) {
-          res.render("statvibe/gameschedules", { games: games, teamsStatic: teamsJSON });
-        }
-      });
+    query = {};
+    filter = {};
+
+    let page = {
+      blocks: {
+        NBAGames: {
+          query: query,
+          filter: filter,
+          data: {
+            static: {},
+          },
+          default_view: "NBAFranchisesView",
+        },
+      },
+    };
+
+    res.render("pages/gameschedules", { page: page });
   });
 
   // app.get("/nba/gamelinks/removeall", function (req, res) {

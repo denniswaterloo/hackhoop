@@ -51,11 +51,11 @@
       .team-logo-small
         <img onerror="this.onerror=null; this.src='/images/statpit/nbalogo.png'" alt='' src='/images/statpit/nba_teams/<%= team %>.png' />
       .team-name-small
-        | <%= teamsStaticJSON[team].team_name %>
+        //- | <%= teamsStaticJSON[team].team_name %>
 
 
       .team-metadata.font-medium
-        | (<%= metadata.teams.DET.total_wins %>-<%= metadata.teams.DET.total_losses %>)
+        //- | (<%= metadata.teams.DET.total_wins %>-<%= metadata.teams.DET.total_losses %>)
     <% })%>
   .block-body
 
