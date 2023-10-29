@@ -15,6 +15,8 @@ const Schemas = {
     PlayoffSerieSchema: require("./models/NBA/PlayoffSerieSchema"),
 
     GameScheduleSchema: require("./models/NBA/GameScheduleSchema"),
+
+    TeamStatSchema: require("./models/NBA/TeamStatSchema"),
   },
 };
 

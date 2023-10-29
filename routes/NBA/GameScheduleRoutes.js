@@ -1,5 +1,6 @@
 const axios = require("axios");
 const teamsJSON = require("../../data/teams.json");
+const seasons = require("../../data/seasons.json");
 
 module.exports = function (app, db, schemas) {
   const NBAGameSchedule = db.model("NBAGameSchedules", schemas.NBA.GameScheduleSchema);
@@ -8,10 +9,8 @@ module.exports = function (app, db, schemas) {
   //   const NBAPlayerInfo = db.model("NBAPlayerInfos", schemas.NBAPlayerInfoSchema);
 
   app.get("/nba/gameschedules.json", function (req, res) {
-    NBAGameSchedule.find({}).exec(function (err, nbaplays) {
-      if (!err) {
-        res.json(nbaplays);
-      }
+    NBAGameSchedule.find({}).then(function (nbaplays) {
+      res.json(nbaplays);
     });
   });
 
@@ -154,7 +153,7 @@ module.exports = function (app, db, schemas) {
       },
     };
 
-    res.render("pages/gameschedules", { page: page });
+    res.render("pages/gameschedules", { page: page, seasons: seasons });
   });
 
   // app.get("/nba/gamelinks/removeall", function (req, res) {

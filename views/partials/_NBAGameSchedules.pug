@@ -1,0 +1,37 @@
+.modal
+  <select class="seasonType" name="seasonType" style="width: 100%">
+    <option value="all">All</option>
+    <option value="regularseason">Regular Season</option>
+    <option value="playoffs">Playoffs</option>
+  </select>
+.block
+  .block-header
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+          | Awards: 
+          span.font-medium
+            | <%= data.collection.length %> 
+      .float-right
+        a.font-regular.underline(style='color: #0074cc' data-micromodal-trigger="modal-1")
+          | Filter
+    .block-header-row.padding-10
+      .float-left.font-medium
+        span.font-regular  
+  .block-body
+
+    <% _.each(seasons["2023-24"]["gamedates"], function(award, ind, val) { %> 
+    <div class="section <%= ind %>"> 
+      .section-header.font-medium
+        | <%= ind %>
+      .section-body
+        table.stat-table.border-bottom-none
+          thead
+            tr.stat-tr.stat-tr-legend
+              td.td-legend.width-100.padding-8 Away
+              td.td-legend.width-min.padding-8 Home
+              td.td-legend.width-min.padding-8 Time
+              td.td-legend.padding-8 Links/Notes
+          tbody          
+    </div>
+    <% }) %>
